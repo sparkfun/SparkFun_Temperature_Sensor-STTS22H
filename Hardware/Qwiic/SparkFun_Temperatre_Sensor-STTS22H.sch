@@ -24746,16 +24746,16 @@ LED.</text>
 <wire x1="40.64" y1="91.44" x2="40.64" y2="86.36" width="0.1524" layer="97"/>
 <wire x1="40.64" y1="86.36" x2="40.64" y2="81.28" width="0.1524" layer="97"/>
 <wire x1="40.64" y1="81.28" x2="40.64" y2="76.2" width="0.1524" layer="97"/>
-<wire x1="58.42" y1="76.2" x2="78.74" y2="76.2" width="0.1524" layer="97"/>
-<wire x1="78.74" y1="76.2" x2="78.74" y2="81.28" width="0.1524" layer="97"/>
-<wire x1="78.74" y1="81.28" x2="78.74" y2="86.36" width="0.1524" layer="97"/>
-<wire x1="78.74" y1="86.36" x2="78.74" y2="91.44" width="0.1524" layer="97"/>
-<wire x1="78.74" y1="91.44" x2="78.74" y2="96.52" width="0.1524" layer="97"/>
-<wire x1="78.74" y1="96.52" x2="78.74" y2="101.6" width="0.1524" layer="97"/>
-<wire x1="78.74" y1="101.6" x2="78.74" y2="106.68" width="0.1524" layer="97"/>
-<wire x1="78.74" y1="106.68" x2="40.64" y2="106.68" width="0.1524" layer="97"/>
+<wire x1="58.42" y1="76.2" x2="83.82" y2="76.2" width="0.1524" layer="97"/>
+<wire x1="83.82" y1="76.2" x2="83.82" y2="81.28" width="0.1524" layer="97"/>
+<wire x1="83.82" y1="81.28" x2="83.82" y2="86.36" width="0.1524" layer="97"/>
+<wire x1="83.82" y1="86.36" x2="83.82" y2="91.44" width="0.1524" layer="97"/>
+<wire x1="83.82" y1="91.44" x2="83.82" y2="96.52" width="0.1524" layer="97"/>
+<wire x1="83.82" y1="96.52" x2="83.82" y2="101.6" width="0.1524" layer="97"/>
+<wire x1="83.82" y1="101.6" x2="83.82" y2="106.68" width="0.1524" layer="97"/>
+<wire x1="83.82" y1="106.68" x2="40.64" y2="106.68" width="0.1524" layer="97"/>
 <wire x1="40.64" y1="101.6" x2="58.42" y2="101.6" width="0.1524" layer="97"/>
-<wire x1="58.42" y1="101.6" x2="78.74" y2="101.6" width="0.1524" layer="97"/>
+<wire x1="58.42" y1="101.6" x2="83.82" y2="101.6" width="0.1524" layer="97"/>
 <wire x1="58.42" y1="101.6" x2="58.42" y2="96.52" width="0.1524" layer="97"/>
 <wire x1="58.42" y1="96.52" x2="58.42" y2="91.44" width="0.1524" layer="97"/>
 <wire x1="58.42" y1="91.44" x2="58.42" y2="86.36" width="0.1524" layer="97"/>
@@ -24764,33 +24764,33 @@ LED.</text>
 <wire x1="40.64" y1="96.52" x2="58.42" y2="96.52" width="0.1524" layer="97"/>
 <wire x1="40.64" y1="81.28" x2="58.42" y2="81.28" width="0.1524" layer="97"/>
 <wire x1="40.64" y1="76.2" x2="58.42" y2="76.2" width="0.1524" layer="97"/>
-<wire x1="58.42" y1="96.52" x2="78.74" y2="96.52" width="0.1524" layer="97"/>
-<wire x1="58.42" y1="81.28" x2="78.74" y2="81.28" width="0.1524" layer="97"/>
+<wire x1="58.42" y1="96.52" x2="83.82" y2="96.52" width="0.1524" layer="97"/>
+<wire x1="58.42" y1="81.28" x2="83.82" y2="81.28" width="0.1524" layer="97"/>
 <text x="48.26" y="88.9" size="1.778" layer="97" font="vector" align="center">VDD</text>
 <text x="48.26" y="83.82" size="1.778" layer="97" font="vector" align="center">GND</text>
 <text x="48.26" y="78.74" size="1.778" layer="97" font="vector" align="center">OPEN</text>
-<text x="68.58" y="78.74" size="1.778" layer="97" font="vector" align="center">Undefined</text>
+<text x="73.66" y="78.74" size="1.778" layer="97" font="vector" align="center">Undefined</text>
 <text x="58.42" y="73.66" size="1.778" layer="97" font="vector" align="center">7-bit Unshifted</text>
 <wire x1="40.64" y1="91.44" x2="58.42" y2="91.44" width="0.1524" layer="97"/>
-<wire x1="58.42" y1="91.44" x2="78.74" y2="91.44" width="0.1524" layer="97"/>
+<wire x1="58.42" y1="91.44" x2="83.82" y2="91.44" width="0.1524" layer="97"/>
 <wire x1="40.64" y1="86.36" x2="58.42" y2="86.36" width="0.1524" layer="97"/>
-<wire x1="58.42" y1="86.36" x2="78.74" y2="86.36" width="0.1524" layer="97"/>
+<wire x1="58.42" y1="86.36" x2="83.82" y2="86.36" width="0.1524" layer="97"/>
 <text x="48.26" y="93.98" size="1.778" layer="97" font="vector" align="center">R7(56K)</text>
 <text x="48.26" y="99.06" size="1.778" layer="97" font="vector" align="center">R8(15K)</text>
-<text x="66.04" y="88.9" size="1.778" layer="97" font="vector" align="center">0x38</text>
-<text x="66.04" y="99.06" size="1.778" layer="97" font="vector" align="center">0x3C</text>
-<text x="66.04" y="93.98" size="1.778" layer="97" font="vector" align="center">0x3E</text>
-<text x="66.04" y="83.82" size="1.778" layer="97" font="vector" align="center">0x3F</text>
+<text x="71.12" y="88.9" size="1.778" layer="97" font="vector" align="center">0x38</text>
+<text x="71.12" y="99.06" size="1.778" layer="97" font="vector" align="center">0x3C (Default)</text>
+<text x="71.12" y="93.98" size="1.778" layer="97" font="vector" align="center">0x3E</text>
+<text x="71.12" y="83.82" size="1.778" layer="97" font="vector" align="center">0x3F</text>
 <wire x1="27.94" y1="99.06" x2="35.56" y2="99.06" width="0.1524" layer="97" style="dashdot"/>
 <wire x1="35.56" y1="99.06" x2="35.56" y2="104.14" width="0.1524" layer="97" style="dashdot"/>
 <wire x1="35.56" y1="104.14" x2="48.26" y2="104.14" width="0.1524" layer="97" style="dashdot"/>
-<wire x1="71.12" y1="104.14" x2="86.36" y2="104.14" width="0.1524" layer="97" style="dashdot"/>
+<wire x1="76.2" y1="104.14" x2="86.36" y2="104.14" width="0.1524" layer="97" style="dashdot"/>
 <wire x1="86.36" y1="104.14" x2="86.36" y2="99.06" width="0.1524" layer="97" style="dashdot"/>
 <wire x1="86.36" y1="99.06" x2="93.98" y2="99.06" width="0.1524" layer="97" style="dashdot"/>
 <wire x1="48.26" y1="104.14" x2="47.498" y2="104.902" width="0.1524" layer="97" style="dashdot"/>
 <wire x1="48.26" y1="104.14" x2="47.498" y2="103.378" width="0.1524" layer="97" style="dashdot"/>
-<wire x1="71.12" y1="104.14" x2="71.882" y2="104.902" width="0.1524" layer="97" style="dashdot"/>
-<wire x1="71.12" y1="104.14" x2="71.882" y2="103.378" width="0.1524" layer="97" style="dashdot"/>
+<wire x1="76.2" y1="104.14" x2="76.962" y2="104.902" width="0.1524" layer="97" style="dashdot"/>
+<wire x1="76.2" y1="104.14" x2="76.962" y2="103.378" width="0.1524" layer="97" style="dashdot"/>
 <text x="58.42" y="175.26" size="2.54" layer="94" font="vector" align="center">Temperature Sensor - STTS22H</text>
 </plain>
 <instances>
@@ -24902,7 +24902,7 @@ LED.</text>
 <attribute name="VALUE" x="33.02" y="119.634" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="ADDR1" gate="G$1" x="96.52" y="101.6" smashed="yes" rot="MR90">
-<attribute name="NAME" x="66.04" y="104.14" size="1.778" layer="95" font="vector" rot="MR0" align="center"/>
+<attribute name="NAME" x="71.12" y="104.14" size="1.778" layer="95" font="vector" rot="MR0" align="center"/>
 </instance>
 <instance part="SUPPLY8" gate="G$1" x="88.9" y="104.14" smashed="yes">
 <attribute name="VALUE" x="88.9" y="106.934" size="1.778" layer="96" font="vector" align="bottom-center"/>

@@ -23378,27 +23378,63 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="-1.2319" y="-0.127"/>
 </polygon>
 </package>
-<package name="SMT-JUMPER_3_NO_NO-SILK" urn="urn:adsk.eagle:footprint:39263/1">
-<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<smd name="1" x="-0.8128" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-<smd name="2" x="0" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-<smd name="3" x="0.8128" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-</package>
-<package name="SMT-JUMPER_3_NO_SILK" urn="urn:adsk.eagle:footprint:39264/1">
-<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<package name="SMT-JUMPER_3_1-NC_TRACE_SILK" urn="urn:adsk.eagle:footprint:39266/1" locally_modified="yes">
 <wire x1="1.27" y1="-1.016" x2="-1.27" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="1.016" x2="1.524" y2="0.762" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-1.524" y1="0.762" x2="-1.27" y2="1.016" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-1.524" y1="-0.762" x2="-1.27" y2="-1.016" width="0.1524" layer="21" curve="90"/>
-<wire x1="1.27" y1="-1.016" x2="1.524" y2="-0.762" width="0.1524" layer="21" curve="90"/>
-<wire x1="1.524" y1="-0.762" x2="1.524" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="-1.524" y1="-0.762" x2="-1.524" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="1.016" x2="1.7272" y2="0.5588" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.7272" y1="0.5588" x2="-1.27" y2="1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.7272" y1="-0.5588" x2="-1.27" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.27" y1="-1.016" x2="1.7272" y2="-0.5588" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.7272" y1="-0.5588" x2="1.7272" y2="0.5588" width="0.1524" layer="21"/>
+<wire x1="-1.7272" y1="-0.5588" x2="-1.7272" y2="0.5588" width="0.1524" layer="21"/>
 <wire x1="-1.27" y1="1.016" x2="1.27" y2="1.016" width="0.1524" layer="21"/>
-<smd name="1" x="-0.8128" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-<smd name="2" x="0" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-<smd name="3" x="0.8128" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<smd name="1" x="-1.0414" y="0" dx="0.6604" dy="1.27" layer="1" cream="no"/>
+<smd name="2" x="0" y="0" dx="0.6604" dy="1.27" layer="1" cream="no"/>
+<smd name="3" x="1.0414" y="0" dx="0.6604" dy="1.27" layer="1" cream="no"/>
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<polygon width="0.127" layer="29">
+<vertex x="0.3175" y="0.127"/>
+<vertex x="0.6985" y="0.127"/>
+<vertex x="0.6985" y="-0.127"/>
+<vertex x="0.3175" y="-0.127"/>
+</polygon>
+<polygon width="0.0127" layer="1">
+<vertex x="-0.1905" y="0.127"/>
+<vertex x="0.5334" y="0.127"/>
+<vertex x="0.5334" y="-0.127"/>
+<vertex x="-0.1905" y="-0.127"/>
+</polygon>
+<polygon width="0.0127" layer="1">
+<vertex x="0.508" y="0.127"/>
+<vertex x="1.2319" y="0.127"/>
+<vertex x="1.2319" y="-0.127"/>
+<vertex x="0.508" y="-0.127"/>
+</polygon>
+</package>
+<package name="SMT-JUMPER_3_1-NC_TRACE_NO-SILK" urn="urn:adsk.eagle:footprint:39267/1" locally_modified="yes">
+<smd name="1" x="-1.0414" y="0" dx="0.6604" dy="1.27" layer="1" cream="no"/>
+<smd name="2" x="0" y="0" dx="0.6604" dy="1.27" layer="1" cream="no"/>
+<smd name="3" x="1.0414" y="0" dx="0.6604" dy="1.27" layer="1" cream="no"/>
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<polygon width="0.127" layer="29">
+<vertex x="0.3175" y="0.127"/>
+<vertex x="0.6985" y="0.127"/>
+<vertex x="0.6985" y="-0.127"/>
+<vertex x="0.3175" y="-0.127"/>
+</polygon>
+<polygon width="0.0127" layer="1">
+<vertex x="-0.1905" y="0.127"/>
+<vertex x="0.5334" y="0.127"/>
+<vertex x="0.5334" y="-0.127"/>
+<vertex x="-0.1905" y="-0.127"/>
+</polygon>
+<polygon width="0.0127" layer="1">
+<vertex x="0.508" y="0.127"/>
+<vertex x="1.2319" y="0.127"/>
+<vertex x="1.2319" y="-0.127"/>
+<vertex x="0.508" y="-0.127"/>
+</polygon>
 </package>
 </packages>
 <packages3d>
@@ -23422,14 +23458,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <packageinstance name="SMT-JUMPER_3_2-NC_TRACE_NO-SILK"/>
 </packageinstances>
 </package3d>
-<package3d name="SMT-JUMPER_3_NO_NO-SILK" urn="urn:adsk.eagle:package:39284/1" type="box">
+<package3d name="SMT-JUMPER_3_1-NC_TRACE_SILK" urn="urn:adsk.eagle:package:39288/1" type="box">
 <packageinstances>
-<packageinstance name="SMT-JUMPER_3_NO_NO-SILK"/>
+<packageinstance name="SMT-JUMPER_3_1-NC_TRACE_SILK"/>
 </packageinstances>
 </package3d>
-<package3d name="SMT-JUMPER_3_NO_SILK" urn="urn:adsk.eagle:package:39285/1" type="box">
+<package3d name="SMT-JUMPER_3_1-NC_TRACE_NO-SILK" urn="urn:adsk.eagle:package:39287/1" type="box">
 <packageinstances>
-<packageinstance name="SMT-JUMPER_3_NO_SILK"/>
+<packageinstance name="SMT-JUMPER_3_1-NC_TRACE_NO-SILK"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -23464,7 +23500,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
 <pin name="2" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
 </symbol>
-<symbol name="SMT-JUMPER_3_NO">
+<symbol name="SMT-JUMPER_3_1-NC_TRACE">
 <wire x1="-0.635" y1="-1.397" x2="0.635" y2="-1.397" width="1.27" layer="94" curve="180" cap="flat"/>
 <wire x1="-0.635" y1="1.397" x2="0.635" y2="1.397" width="1.27" layer="94" curve="-180" cap="flat"/>
 <wire x1="1.27" y1="-0.635" x2="-1.27" y2="-0.635" width="0.1524" layer="94"/>
@@ -23473,8 +23509,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-1.27" y1="0.635" x2="1.27" y2="0.635" width="0.1524" layer="94"/>
 <wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.1524" layer="94"/>
 <wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
-<text x="6.096" y="1.27" size="1.778" layer="95" font="vector" align="center">&gt;NAME</text>
-<text x="6.858" y="-1.524" size="1.778" layer="96" font="vector" align="center">&gt;VALUE</text>
+<wire x1="0" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<text x="5.842" y="1.524" size="1.778" layer="95" font="vector" align="center">&gt;NAME</text>
+<text x="6.604" y="-1.27" size="1.778" layer="96" font="vector" align="center">&gt;VALUE</text>
 <rectangle x1="-1.27" y1="-0.635" x2="1.27" y2="0.635" layer="94"/>
 <pin name="3" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
 <pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
@@ -23562,34 +23599,40 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </device>
 </devices>
 </deviceset>
-<deviceset name="JUMPER-SMT_3_NO" prefix="JP">
-<description>&lt;h3&gt;Normally open jumper&lt;/h3&gt;
-&lt;p&gt;This jumper has three pads in close proximity to each other. Apply solder to close the connection(s).&lt;/p&gt;</description>
+<deviceset name="JUMPER-SMT_3_1-NC_TRACE" prefix="JP">
+<description>&lt;h3&gt;Normally closed trace jumper (1 of 2 connections)&lt;/h3&gt;
+&lt;p&gt;This jumper has a trace between two pads so it's normally closed (NC). The other connection is normally open (NO). Use a razor knife to open the connection. For best results follow the IPC guidelines for cutting traces:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cutout at least 0.063 mm (0.005 in).&lt;/li&gt;
+&lt;li&gt;Remove all loose material to clean up the cut area.&lt;/li&gt;
+&lt;li&gt;Seal the cut with an approved epoxy.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Reapply solder to reclose the connection, or to close the NO connection.&lt;/p&gt;</description>
 <gates>
-<gate name="G$1" symbol="SMT-JUMPER_3_NO" x="0" y="0"/>
+<gate name="G$1" symbol="SMT-JUMPER_3_1-NC_TRACE" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_NO-SILK" package="SMT-JUMPER_3_NO_NO-SILK">
+<device name="_SILK" package="SMT-JUMPER_3_1-NC_TRACE_SILK">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 <connect gate="G$1" pin="3" pad="3"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39284/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39288/1"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="_SILK" package="SMT-JUMPER_3_NO_SILK">
+<device name="_NO-SILK" package="SMT-JUMPER_3_1-NC_TRACE_NO-SILK">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 <connect gate="G$1" pin="3" pad="3"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39285/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39287/1"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -24393,7 +24436,7 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <part name="GND4" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R3" library="SparkFun-Resistors" deviceset="10KOHM" device="-0402T-1/16W-1%" value="10k"/>
 <part name="SUPPLY5" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="ADDR" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_NO" device="_SILK" package3d_urn="urn:adsk.eagle:package:39285/1"/>
+<part name="ADDR" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_1-NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39288/1"/>
 <part name="SUPPLY8" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND5" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402T-16V-10%" value="0.1uF"/>
@@ -24425,32 +24468,32 @@ accept 22AWG or smaller</text>
 <wire x1="35.56" y1="99.06" x2="35.56" y2="93.98" width="0.1524" layer="97"/>
 <wire x1="35.56" y1="93.98" x2="35.56" y2="88.9" width="0.1524" layer="97"/>
 <wire x1="35.56" y1="88.9" x2="35.56" y2="83.82" width="0.1524" layer="97"/>
-<wire x1="53.34" y1="83.82" x2="73.66" y2="83.82" width="0.1524" layer="97"/>
-<wire x1="73.66" y1="83.82" x2="73.66" y2="88.9" width="0.1524" layer="97"/>
-<wire x1="73.66" y1="88.9" x2="73.66" y2="93.98" width="0.1524" layer="97"/>
-<wire x1="73.66" y1="93.98" x2="73.66" y2="99.06" width="0.1524" layer="97"/>
-<wire x1="73.66" y1="99.06" x2="73.66" y2="104.14" width="0.1524" layer="97"/>
-<wire x1="73.66" y1="104.14" x2="35.56" y2="104.14" width="0.1524" layer="97"/>
+<wire x1="53.34" y1="83.82" x2="78.74" y2="83.82" width="0.1524" layer="97"/>
+<wire x1="78.74" y1="83.82" x2="78.74" y2="88.9" width="0.1524" layer="97"/>
+<wire x1="78.74" y1="88.9" x2="78.74" y2="93.98" width="0.1524" layer="97"/>
+<wire x1="78.74" y1="93.98" x2="78.74" y2="99.06" width="0.1524" layer="97"/>
+<wire x1="78.74" y1="99.06" x2="78.74" y2="104.14" width="0.1524" layer="97"/>
+<wire x1="78.74" y1="104.14" x2="35.56" y2="104.14" width="0.1524" layer="97"/>
 <wire x1="35.56" y1="99.06" x2="53.34" y2="99.06" width="0.1524" layer="97"/>
-<wire x1="53.34" y1="99.06" x2="73.66" y2="99.06" width="0.1524" layer="97"/>
+<wire x1="53.34" y1="99.06" x2="78.74" y2="99.06" width="0.1524" layer="97"/>
 <wire x1="53.34" y1="99.06" x2="53.34" y2="93.98" width="0.1524" layer="97"/>
 <wire x1="53.34" y1="93.98" x2="53.34" y2="88.9" width="0.1524" layer="97"/>
 <wire x1="53.34" y1="88.9" x2="53.34" y2="83.82" width="0.1524" layer="97"/>
 <wire x1="35.56" y1="88.9" x2="53.34" y2="88.9" width="0.1524" layer="97"/>
 <wire x1="35.56" y1="83.82" x2="53.34" y2="83.82" width="0.1524" layer="97"/>
-<wire x1="53.34" y1="88.9" x2="73.66" y2="88.9" width="0.1524" layer="97"/>
+<wire x1="53.34" y1="88.9" x2="78.74" y2="88.9" width="0.1524" layer="97"/>
 <text x="43.18" y="96.52" size="1.778" layer="97" font="vector" align="center">1 (VDD)</text>
 <text x="43.18" y="91.44" size="1.778" layer="97" font="vector" align="center">0 (GND)</text>
 <text x="43.18" y="86.36" size="1.778" layer="97" font="vector" align="center">OPEN</text>
-<text x="63.5" y="86.36" size="1.778" layer="97" font="vector" align="center">Undefined</text>
+<text x="66.04" y="86.36" size="1.778" layer="97" font="vector" align="center">Undefined</text>
 <text x="53.34" y="81.28" size="1.778" layer="97" font="vector" align="center">7-bit Unshifted</text>
 <wire x1="35.56" y1="93.98" x2="53.34" y2="93.98" width="0.1524" layer="97"/>
-<wire x1="53.34" y1="93.98" x2="73.66" y2="93.98" width="0.1524" layer="97"/>
-<text x="60.96" y="96.52" size="1.778" layer="97" font="vector" align="center">0x38</text>
-<text x="60.96" y="91.44" size="1.778" layer="97" font="vector" align="center">0x3F</text>
-<wire x1="58.42" y1="101.6" x2="88.9" y2="101.6" width="0.1524" layer="97" style="dashdot"/>
-<wire x1="58.42" y1="101.6" x2="59.182" y2="102.362" width="0.1524" layer="97" style="dashdot"/>
-<wire x1="58.42" y1="101.6" x2="59.182" y2="100.838" width="0.1524" layer="97" style="dashdot"/>
+<wire x1="53.34" y1="93.98" x2="78.74" y2="93.98" width="0.1524" layer="97"/>
+<text x="66.04" y="96.52" size="1.778" layer="97" font="vector" align="center">0x38 (Default)</text>
+<text x="66.04" y="91.44" size="1.778" layer="97" font="vector" align="center">0x3F</text>
+<wire x1="60.96" y1="101.6" x2="88.9" y2="101.6" width="0.1524" layer="97" style="dashdot"/>
+<wire x1="60.96" y1="101.6" x2="61.722" y2="102.362" width="0.1524" layer="97" style="dashdot"/>
+<wire x1="60.96" y1="101.6" x2="61.722" y2="100.838" width="0.1524" layer="97" style="dashdot"/>
 <text x="68.58" y="177.8" size="2.54" layer="94" font="vector" align="center">Temperature Sensor - STTS22H</text>
 </plain>
 <instances>
@@ -24558,7 +24601,7 @@ accept 22AWG or smaller</text>
 <attribute name="VALUE" x="83.82" y="162.814" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="ADDR" gate="G$1" x="91.44" y="104.14" smashed="yes" rot="MR90">
-<attribute name="NAME" x="53.34" y="101.6" size="1.778" layer="95" font="vector" rot="MR0" align="center"/>
+<attribute name="NAME" x="55.88" y="101.6" size="1.778" layer="95" font="vector" rot="MR0" align="center"/>
 </instance>
 <instance part="SUPPLY8" gate="G$1" x="83.82" y="106.68" smashed="yes">
 <attribute name="VALUE" x="83.82" y="109.474" size="1.778" layer="96" font="vector" align="bottom-center"/>

@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.002" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -6554,6 +6554,9 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <via x="20.32" y="16.51" extent="1-16" drill="0.3048"/>
 <via x="17.78" y="16.51" extent="1-16" drill="0.3048"/>
 <contactref element="C1" pad="2"/>
+<via x="11.303" y="17.78" extent="1-16" drill="0.3048"/>
+<via x="17.78" y="19.304" extent="1-16" drill="0.3048"/>
+<via x="20.32" y="19.304" extent="1-16" drill="0.3048"/>
 </signal>
 <signal name="3.3V">
 <contactref element="I2C_PU" pad="2"/>
