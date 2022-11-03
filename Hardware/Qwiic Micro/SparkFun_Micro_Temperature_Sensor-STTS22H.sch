@@ -24439,8 +24439,8 @@ accept 22AWG or smaller</text>
 <wire x1="35.56" y1="88.9" x2="53.34" y2="88.9" width="0.1524" layer="97"/>
 <wire x1="35.56" y1="83.82" x2="53.34" y2="83.82" width="0.1524" layer="97"/>
 <wire x1="53.34" y1="88.9" x2="73.66" y2="88.9" width="0.1524" layer="97"/>
-<text x="43.18" y="96.52" size="1.778" layer="97" font="vector" align="center">VDD</text>
-<text x="43.18" y="91.44" size="1.778" layer="97" font="vector" align="center">GND</text>
+<text x="43.18" y="96.52" size="1.778" layer="97" font="vector" align="center">1 (VDD)</text>
+<text x="43.18" y="91.44" size="1.778" layer="97" font="vector" align="center">0 (GND)</text>
 <text x="43.18" y="86.36" size="1.778" layer="97" font="vector" align="center">OPEN</text>
 <text x="63.5" y="86.36" size="1.778" layer="97" font="vector" align="center">Undefined</text>
 <text x="53.34" y="81.28" size="1.778" layer="97" font="vector" align="center">7-bit Unshifted</text>
