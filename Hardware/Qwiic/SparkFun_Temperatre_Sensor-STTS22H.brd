@@ -6376,7 +6376,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="DESIGNER" value="Elias Santistevan" x="12.7" y="-16.51" size="1.778" layer="51" font="vector"/>
 <attribute name="REV" value="" x="-19.05" y="-16.51" size="1.778" layer="27" display="off"/>
 </element>
-<element name="LOGO2" library="SparkFun-Aesthetics" package="OSHW-LOGO-MINI" value="OSHW-LOGOMINI" x="23.7744" y="14.71295" smashed="yes" rot="MR0"/>
+<element name="LOGO2" library="SparkFun-Aesthetics" package="OSHW-LOGO-MINI" value="OSHW-LOGOMINI" x="4.4704" y="5.94995" smashed="yes" rot="MR0"/>
 <element name="STANDOFF1" library="SparkFun-Hardware" package="STAND-OFF-TIGHT" value="STAND-OFFTIGHT" x="2.54" y="22.86" smashed="yes"/>
 <element name="STANDOFF2" library="SparkFun-Hardware" package="STAND-OFF-TIGHT" value="STAND-OFFTIGHT" x="2.54" y="2.54" smashed="yes"/>
 <element name="R1" library="SparkFun-Resistors" package="0603" value="2.2k" x="10.16" y="17.78" smashed="yes" rot="R90">
@@ -6419,7 +6419,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="VALUE" x="23.6982" y="19.685" size="0.6096" layer="28" font="vector" ratio="20" rot="MR180" align="top-center"/>
 </element>
 <element name="U$16" library="bot" package="#LED#11" value="" x="23.622" y="16.9926" smashed="yes" rot="MR0"/>
-<element name="U$25" library="bot" package="#I2C#11" value="" x="12.7" y="6.985" smashed="yes" rot="MR0"/>
+<element name="U$25" library="bot" package="#I2C#11" value="" x="12.7" y="6.858" smashed="yes" rot="MR0"/>
 <element name="U$1" library="top" package="#GND#3" value="" x="7.62" y="3.937" smashed="yes" rot="R90"/>
 <element name="U$2" library="top" package="#3V3#4" value="" x="10.16" y="3.81" smashed="yes" rot="R90"/>
 <element name="U$3" library="top" package="#SDA#5" value="" x="12.7" y="3.937" smashed="yes" rot="R90"/>
@@ -6456,7 +6456,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="RES-07854" x="12.7" y="17.78" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" value="15k" x="13.462" y="17.78" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="U$6" library="top" package="#ADDR#6" value="" x="17.78" y="16.8148" smashed="yes" rot="MR0"/>
+<element name="U$6" library="top" package="#ADDR#6" value="" x="17.78" y="13.6398" smashed="yes" rot="MR0"/>
 <element name="U2" library="STTS22H" package="UDFN-6L" value="STTS22H" x="12.7" y="12.7" smashed="yes">
 <attribute name="NAME" x="12.041" y="14.96833125" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="PROD_ID" value="IC-17235" x="12.7" y="12.7" size="1.778" layer="27" display="off"/>
@@ -6477,14 +6477,14 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </element>
 <element name="U$5" library="top" package="#SDA#7" value="" x="12.7" y="3.9116" smashed="yes" rot="MR270"/>
 <element name="U$7" library="top" package="#SCL#6" value="" x="15.24" y="3.7592" smashed="yes" rot="MR270"/>
-<element name="U$8" library="top" package="#ADDR1#9" value="" x="6.5024" y="16.5862" smashed="yes" rot="MR0"/>
+<element name="U$8" library="top" package="#ADDR1#9" value="" x="6.2484" y="13.6652" smashed="yes" rot="MR0"/>
 <element name="U$12" library="top" package="#0X3C#25" value="" x="14.4272" y="15.3416" smashed="yes" rot="MR0"/>
 <element name="U$13" library="top" package="#0X3E#25" value="" x="21.1836" y="15.3416" smashed="yes" rot="MR0"/>
 <element name="U$14" library="top" package="#0X3F#25" value="" x="9.5504" y="15.2908" smashed="yes" rot="MR0"/>
 <element name="U$15" library="top" package="#0X38#25" value="" x="3.2512" y="15.2908" smashed="yes" rot="MR0"/>
 <element name="U$17" library="top" package="TEMPERATURE23" value="" x="12.7" y="19.6088" smashed="yes" rot="MR0"/>
-<element name="U$19" library="top" package="SENSOR24" value="" x="16.6116" y="18.0848" smashed="yes" rot="MR0"/>
-<element name="U$22" library="top" package="STTS22H21" value="" x="7.9756" y="18.0848" smashed="yes" rot="MR0"/>
+<element name="U$19" library="top" package="SENSOR24" value="" x="16.6116" y="17.9578" smashed="yes" rot="MR0"/>
+<element name="U$22" library="top" package="STTS22H21" value="" x="7.9756" y="17.9578" smashed="yes" rot="MR0"/>
 <element name="U$23" library="top" package="TEMPERATURE23" value="" x="12.7" y="24.13" smashed="yes"/>
 <element name="U$24" library="top" package="SENSOR24" value="" x="12.7" y="22.5552" smashed="yes"/>
 <element name="U$26" library="top" package="STTS22H21" value="" x="12.6492" y="20.7772" smashed="yes"/>
@@ -6571,7 +6571,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <via x="12.7" y="6.985" extent="1-16" drill="0.3048"/>
 <wire x1="12.7" y1="6.985" x2="12.7" y2="8.382" width="0.4064" layer="16"/>
 <wire x1="10.16" y1="8.1534" x2="11.3284" y2="6.985" width="0.4064" layer="1"/>
-<via x="11.176" y="11.176" extent="1-16" drill="0.3048"/>
 <polygon width="0.127" layer="1" thermals="no">
 <vertex x="11.8364" y="11.938"/>
 <vertex x="11.43" y="11.938"/>
@@ -6598,7 +6597,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="8.2042" y1="12.1548" x2="8.509" y2="11.85" width="0.4064" layer="1"/>
 <wire x1="6.612" y1="13.2" x2="7.6572" y2="12.1548" width="0.4064" layer="1"/>
 <wire x1="15.24" y1="18.63" x2="12.7" y2="18.63" width="0.4064" layer="1"/>
-<via x="19.1596" y="12.2" extent="1-16" drill="0.3048"/>
 <wire x1="5.588" y1="15.1892" x2="5.5372" y2="15.24" width="0.4064" layer="16"/>
 <wire x1="5.08" y1="13.2" x2="3.945" y2="13.2" width="0.4064" layer="1"/>
 <wire x1="3.945" y1="13.2" x2="3.937" y2="13.208" width="0.4064" layer="1"/>
