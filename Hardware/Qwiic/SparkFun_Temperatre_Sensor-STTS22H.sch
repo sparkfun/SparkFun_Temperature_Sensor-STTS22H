@@ -24292,40 +24292,40 @@ Standard 0402 sized pads with cathode pin indicator.
 &lt;li&gt;Middle Pad Size: .65mm x 1.45mm&lt;/li&gt;
 &lt;li&gt;Pin Count: 1 &lt;/li&gt;
 &lt;/ul&gt;&lt;/p&gt;</description>
-<wire x1="0.999" y1="1" x2="-1.001" y2="1" width="0.1524" layer="51"/>
-<wire x1="-1.001" y1="1" x2="-1.001" y2="-1" width="0.1524" layer="51"/>
-<wire x1="-1.001" y1="-1" x2="0.999" y2="-1" width="0.1524" layer="51"/>
-<wire x1="0.999" y1="-1" x2="0.999" y2="1" width="0.1524" layer="51"/>
-<smd name="P1" x="-0.901" y="0.65" dx="0.27" dy="0.7" layer="1" rot="R270" stop="no" cream="no"/>
-<smd name="P2" x="-0.901" y="0" dx="0.27" dy="0.7" layer="1" rot="R270" stop="no" cream="no"/>
-<smd name="P3" x="-0.901" y="-0.65" dx="0.27" dy="0.7" layer="1" rot="R270" stop="no" cream="no"/>
-<smd name="P4" x="0.879" y="-0.65" dx="0.27" dy="0.7" layer="1" rot="R270" stop="no" cream="no"/>
-<smd name="P5" x="0.879" y="0" dx="0.27" dy="0.7" layer="1" rot="R270" stop="no" cream="no"/>
-<smd name="P6" x="0.879" y="0.65" dx="0.27" dy="0.7" layer="1" rot="R270" stop="no" cream="no"/>
-<text x="-1.66" y="1.26833125" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="-1.787" y="-1.86933125" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
-<smd name="P7" x="-0.001" y="0" dx="1.45" dy="0.65" layer="1" rot="R270" stop="no" cream="no"/>
-<circle x="-1.301" y="1.3" radius="0.180275" width="0" layer="21"/>
-<wire x1="-1.001" y1="1.05" x2="0.999" y2="1.05" width="0.127" layer="21"/>
-<wire x1="-1.001" y1="-1.04" x2="0.999" y2="-1.04" width="0.127" layer="21"/>
-<rectangle x1="-1.036" y1="-1.001" x2="-0.766" y2="-0.301" layer="29" rot="R90"/>
-<rectangle x1="-1.036" y1="-0.351" x2="-0.766" y2="0.349" layer="29" rot="R90"/>
-<rectangle x1="0.744" y1="-1.001" x2="1.014" y2="-0.301" layer="29" rot="R90"/>
-<rectangle x1="0.744" y1="-0.351" x2="1.014" y2="0.349" layer="29" rot="R90"/>
-<rectangle x1="0.744" y1="0.299" x2="1.014" y2="0.999" layer="29" rot="R90"/>
-<rectangle x1="-1.027" y1="-0.976" x2="-0.777" y2="-0.326" layer="31" rot="R90"/>
-<rectangle x1="-1.027" y1="-0.326" x2="-0.777" y2="0.324" layer="31" rot="R90"/>
-<rectangle x1="-1.027" y1="0.324" x2="-0.777" y2="0.974" layer="31" rot="R90"/>
-<rectangle x1="0.753" y1="-0.976" x2="1.003" y2="-0.326" layer="31" rot="R90"/>
-<rectangle x1="0.753" y1="-0.326" x2="1.003" y2="0.324" layer="31" rot="R90"/>
-<rectangle x1="0.753" y1="0.324" x2="1.003" y2="0.974" layer="31" rot="R90"/>
-<rectangle x1="-0.329" y1="-0.73" x2="0.327" y2="0.728" layer="29"/>
-<rectangle x1="-0.287" y1="-0.702" x2="0.283" y2="0.706" layer="31"/>
-<wire x1="-1.1534" y1="1.159" x2="-1.1534" y2="-1.1778" width="0.1524" layer="39"/>
-<wire x1="-1.1534" y1="-1.1778" x2="1.158" y2="-1.1778" width="0.1524" layer="39"/>
-<wire x1="1.158" y1="-1.1778" x2="1.158" y2="1.159" width="0.1524" layer="39"/>
-<wire x1="1.158" y1="1.159" x2="-1.1534" y2="1.159" width="0.1524" layer="39"/>
-<rectangle x1="-1.036" y1="0.299" x2="-0.766" y2="0.999" layer="29" rot="R90"/>
+<wire x1="1.01" y1="1" x2="-0.99" y2="1" width="0.1524" layer="51"/>
+<wire x1="-0.99" y1="1" x2="-0.99" y2="-1" width="0.1524" layer="51"/>
+<wire x1="-0.99" y1="-1" x2="1.01" y2="-1" width="0.1524" layer="51"/>
+<wire x1="1.01" y1="-1" x2="1.01" y2="1" width="0.1524" layer="51"/>
+<smd name="P1" x="-0.89" y="0.65" dx="0.27" dy="0.7" layer="1" rot="R270" stop="no" cream="no"/>
+<smd name="P2" x="-0.89" y="0" dx="0.27" dy="0.7" layer="1" rot="R270" stop="no" cream="no"/>
+<smd name="P3" x="-0.89" y="-0.65" dx="0.27" dy="0.7" layer="1" rot="R270" stop="no" cream="no"/>
+<smd name="P4" x="0.89" y="-0.65" dx="0.27" dy="0.7" layer="1" rot="R270" stop="no" cream="no"/>
+<smd name="P5" x="0.89" y="0" dx="0.27" dy="0.7" layer="1" rot="R270" stop="no" cream="no"/>
+<smd name="P6" x="0.89" y="0.65" dx="0.27" dy="0.7" layer="1" rot="R270" stop="no" cream="no"/>
+<text x="-1.649" y="1.26833125" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.776" y="-1.86933125" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+<smd name="P7" x="0.01" y="0" dx="1.45" dy="0.65" layer="1" rot="R270" stop="no" cream="no"/>
+<circle x="-1.29" y="1.3" radius="0.180275" width="0" layer="21"/>
+<wire x1="-0.99" y1="1.05" x2="1.01" y2="1.05" width="0.127" layer="21"/>
+<wire x1="-0.99" y1="-1.04" x2="1.01" y2="-1.04" width="0.127" layer="21"/>
+<rectangle x1="-0.276" y1="-0.702" x2="0.294" y2="0.706" layer="31"/>
+<wire x1="-1.1424" y1="1.159" x2="-1.1424" y2="-1.1778" width="0.0508" layer="39"/>
+<wire x1="-1.1424" y1="-1.1778" x2="1.169" y2="-1.1778" width="0.0508" layer="39"/>
+<wire x1="1.169" y1="-1.1778" x2="1.169" y2="1.159" width="0.0508" layer="39"/>
+<wire x1="1.169" y1="1.159" x2="-1.1424" y2="1.159" width="0.0508" layer="39"/>
+<rectangle x1="-1.125" y1="-1.1" x2="-0.655" y2="-0.2" layer="29" rot="R90"/>
+<rectangle x1="-1.125" y1="-0.45" x2="-0.655" y2="0.45" layer="29" rot="R90"/>
+<rectangle x1="-1.125" y1="0.2" x2="-0.655" y2="1.1" layer="29" rot="R90"/>
+<rectangle x1="0.655" y1="-1.1" x2="1.125" y2="-0.2" layer="29" rot="R90"/>
+<rectangle x1="0.655" y1="-0.45" x2="1.125" y2="0.45" layer="29" rot="R90"/>
+<rectangle x1="0.655" y1="0.2" x2="1.125" y2="1.1" layer="29" rot="R90"/>
+<rectangle x1="-0.4" y1="-0.78" x2="0.4" y2="0.79" layer="29"/>
+<rectangle x1="-1.015" y1="-0.965" x2="-0.775" y2="-0.335" layer="31" rot="R90"/>
+<rectangle x1="-1.015" y1="-0.315" x2="-0.775" y2="0.315" layer="31" rot="R90"/>
+<rectangle x1="-1.015" y1="0.335" x2="-0.775" y2="0.965" layer="31" rot="R90"/>
+<rectangle x1="0.765" y1="-0.965" x2="1.005" y2="-0.335" layer="31" rot="R90"/>
+<rectangle x1="0.765" y1="-0.315" x2="1.005" y2="0.315" layer="31" rot="R90"/>
+<rectangle x1="0.765" y1="0.335" x2="1.005" y2="0.965" layer="31" rot="R90"/>
 </package>
 </packages>
 <symbols>
@@ -24769,7 +24769,7 @@ LED.</text>
 <text x="48.26" y="88.9" size="1.778" layer="97" font="vector" align="center">VDD</text>
 <text x="48.26" y="83.82" size="1.778" layer="97" font="vector" align="center">GND</text>
 <text x="48.26" y="78.74" size="1.778" layer="97" font="vector" align="center">OPEN</text>
-<text x="73.66" y="78.74" size="1.778" layer="97" font="vector" align="center">Undefined</text>
+<text x="64.008" y="77.978" size="1.778" layer="97" font="vector">Undefined</text>
 <text x="58.42" y="73.66" size="1.778" layer="97" font="vector" align="center">7-bit Unshifted</text>
 <wire x1="40.64" y1="91.44" x2="58.42" y2="91.44" width="0.1524" layer="97"/>
 <wire x1="58.42" y1="91.44" x2="83.82" y2="91.44" width="0.1524" layer="97"/>
@@ -24777,10 +24777,10 @@ LED.</text>
 <wire x1="58.42" y1="86.36" x2="83.82" y2="86.36" width="0.1524" layer="97"/>
 <text x="48.26" y="93.98" size="1.778" layer="97" font="vector" align="center">R7(56K)</text>
 <text x="48.26" y="99.06" size="1.778" layer="97" font="vector" align="center">R8(15K)</text>
-<text x="71.12" y="88.9" size="1.778" layer="97" font="vector" align="center">0x38</text>
-<text x="71.12" y="99.06" size="1.778" layer="97" font="vector" align="center">0x3C (Default)</text>
-<text x="71.12" y="93.98" size="1.778" layer="97" font="vector" align="center">0x3E</text>
-<text x="71.12" y="83.82" size="1.778" layer="97" font="vector" align="center">0x3F</text>
+<text x="67.31" y="88.392" size="1.778" layer="97" font="vector">0x38</text>
+<text x="61.468" y="98.298" size="1.778" layer="97" font="vector" ratio="15">0x3C (Default)</text>
+<text x="67.31" y="93.472" size="1.778" layer="97" font="vector">0x3E</text>
+<text x="67.564" y="83.058" size="1.778" layer="97" font="vector">0x3F</text>
 <wire x1="27.94" y1="99.06" x2="35.56" y2="99.06" width="0.1524" layer="97" style="dashdot"/>
 <wire x1="35.56" y1="99.06" x2="35.56" y2="104.14" width="0.1524" layer="97" style="dashdot"/>
 <wire x1="35.56" y1="104.14" x2="48.26" y2="104.14" width="0.1524" layer="97" style="dashdot"/>
