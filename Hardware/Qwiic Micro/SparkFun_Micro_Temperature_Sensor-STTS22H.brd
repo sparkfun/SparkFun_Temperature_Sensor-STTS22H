@@ -37,7 +37,7 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -1878,6 +1878,7 @@ Standard 0402 sized pads with cathode pin indicator.
 <wire x1="-1.1534" y1="-1.1778" x2="1.158" y2="-1.1778" width="0.1524" layer="39"/>
 <wire x1="1.158" y1="-1.1778" x2="1.158" y2="1.159" width="0.1524" layer="39"/>
 <wire x1="1.158" y1="1.159" x2="-1.1534" y2="1.159" width="0.1524" layer="39"/>
+<rectangle x1="-1.036" y1="0.299" x2="-0.766" y2="0.999" layer="29" rot="R90"/>
 </package>
 </packages>
 </library>
@@ -3120,6 +3121,23 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <via x="8.128" y="6.0452" extent="1-16" drill="0.3048"/>
 <contactref element="U2" pad="P7"/>
 <via x="10.3886" y="3.8608" extent="1-16" drill="0.3048"/>
+<wire x1="15.9004" y1="0.6604" x2="18.0975" y2="0.9525" width="0" layer="19" extent="16-16"/>
+<wire x1="13.97" y1="2.31" x2="15.9004" y2="0.6604" width="0" layer="19" extent="1-1"/>
+<wire x1="13.1064" y1="1.524" x2="13.97" y2="2.31" width="0" layer="19" extent="1-1"/>
+<wire x1="12.319" y1="4.8514" x2="13.97" y2="2.31" width="0" layer="19" extent="1-16"/>
+<wire x1="11.5316" y1="6.858" x2="12.319" y2="4.8514" width="0" layer="19" extent="16-16"/>
+<wire x1="10.3886" y1="3.8608" x2="12.319" y2="4.8514" width="0" layer="19" extent="16-16"/>
+<wire x1="8.89" y1="3.811" x2="10.3886" y2="3.8608" width="0" layer="19" extent="1-1"/>
+<wire x1="8.89" y1="2.931" x2="8.89" y2="3.811" width="0" layer="19" extent="1-1"/>
+<wire x1="8.9916" y1="2.0828" x2="8.89" y2="2.931" width="0" layer="19" extent="1-1"/>
+<wire x1="9.7028" y1="5.6261" x2="10.3886" y2="3.8608" width="0" layer="19" extent="16-16"/>
+<wire x1="8.128" y1="6.0452" x2="9.7028" y2="5.6261" width="0" layer="19" extent="16-16"/>
+<wire x1="6.858" y1="5.58" x2="8.128" y2="6.0452" width="0" layer="19" extent="1-1"/>
+<wire x1="5.08" y1="6.35" x2="6.858" y2="5.58" width="0" layer="19" extent="1-1"/>
+<wire x1="5.5372" y1="3.7592" x2="6.858" y2="5.58" width="0" layer="19" extent="1-1"/>
+<wire x1="5.7912" y1="2.286" x2="5.5372" y2="3.7592" width="0" layer="19" extent="1-1"/>
+<wire x1="5.6896" y1="0.4064" x2="5.7912" y2="2.286" width="0" layer="19" extent="1-1"/>
+<wire x1="14.986" y1="6.2484" x2="12.319" y2="4.8514" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="SCL">
 <contactref element="R1" pad="1"/>
@@ -3198,6 +3216,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="6.9516" y1="4.6736" x2="7.4676" y2="4.6736" width="0.1524" layer="1"/>
 <wire x1="13.1826" y1="2.7686" x2="12.319" y2="2.7686" width="0.3048" layer="16"/>
 <wire x1="14.224" y1="3.81" x2="13.1826" y2="2.7686" width="0.3048" layer="16"/>
+<wire x1="6.858" y1="4.58" x2="8.24" y2="4.711" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
 <contactref element="R1" pad="2"/>

@@ -23892,6 +23892,7 @@ Standard 0402 sized pads with cathode pin indicator.
 <wire x1="-1.1534" y1="-1.1778" x2="1.158" y2="-1.1778" width="0.1524" layer="39"/>
 <wire x1="1.158" y1="-1.1778" x2="1.158" y2="1.159" width="0.1524" layer="39"/>
 <wire x1="1.158" y1="1.159" x2="-1.1534" y2="1.159" width="0.1524" layer="39"/>
+<rectangle x1="-1.036" y1="0.299" x2="-0.766" y2="0.999" layer="29" rot="R90"/>
 </package>
 </packages>
 <symbols>
