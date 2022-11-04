@@ -23071,158 +23071,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </device>
 </devices>
 </deviceset>
-<deviceset name="1KOHM" prefix="R">
-<description>&lt;h3&gt;1kΩ resistor&lt;/h3&gt;
-&lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-HORIZ-1/4W-1%" package="AXIAL-0.3">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-12182"/>
-<attribute name="VALUE" value="1k"/>
-</technology>
-</technologies>
-</device>
-<device name="-VERT-1/4W-1%" package="AXIAL-0.1">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-12182"/>
-<attribute name="VALUE" value="1k"/>
-</technology>
-</technologies>
-</device>
-<device name="-VERT_KIT-1/4W-1%" package="AXIAL-0.1-KIT">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-12182"/>
-<attribute name="VALUE" value="1k"/>
-</technology>
-</technologies>
-</device>
-<device name="-HORIZ_KIT-1/4W-1%" package="AXIAL-0.3-KIT">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-12182"/>
-<attribute name="VALUE" value="1k"/>
-</technology>
-</technologies>
-</device>
-<device name="-VERT-1/4W-5%" package="AXIAL-0.1">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-08380"/>
-<attribute name="VALUE" value="1k"/>
-</technology>
-</technologies>
-</device>
-<device name="-VERT_KIT-1/4W-5%" package="AXIAL-0.1-KIT">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-08380"/>
-<attribute name="VALUE" value="1k"/>
-</technology>
-</technologies>
-</device>
-<device name="-HORIZ-1/4W-5%" package="AXIAL-0.3">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-08380"/>
-<attribute name="VALUE" value="1k"/>
-</technology>
-</technologies>
-</device>
-<device name="-HORIZ_KIT-1/4W-5%" package="AXIAL-0.3-KIT">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-08380"/>
-<attribute name="VALUE" value="1k"/>
-</technology>
-</technologies>
-</device>
-<device name="-VERT-1/6W-5%" package="AXIAL-0.1">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-09769"/>
-<attribute name="VALUE" value="1k"/>
-</technology>
-</technologies>
-</device>
-<device name="-0603-1/10W-1%" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-07856"/>
-<attribute name="VALUE" value="1k"/>
-</technology>
-</technologies>
-</device>
-<device name="-0402-1/16W-1%" package="0402">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-14342" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-0402T-1/16W-1%" package="0402-TIGHT">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-14342" constant="no"/>
-<attribute name="VALUE" value="1k" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 </devicesets>
 </library>
 <library name="SparkFun-Jumpers">
@@ -24011,40 +23859,39 @@ Standard 0402 sized pads with cathode pin indicator.
 &lt;li&gt;Middle Pad Size: .65mm x 1.45mm&lt;/li&gt;
 &lt;li&gt;Pin Count: 1 &lt;/li&gt;
 &lt;/ul&gt;&lt;/p&gt;</description>
-<wire x1="0.984" y1="0.984" x2="-1.016" y2="0.984" width="0.1524" layer="51"/>
-<wire x1="-1.016" y1="0.984" x2="-1.016" y2="-1.016" width="0.1524" layer="51"/>
-<wire x1="-1.016" y1="-1.016" x2="0.984" y2="-1.016" width="0.1524" layer="51"/>
-<wire x1="0.984" y1="-1.016" x2="0.984" y2="0.984" width="0.1524" layer="51"/>
-<smd name="P1" x="-0.916" y="0.634" dx="0.27" dy="0.7" layer="1" rot="R270" stop="no" cream="no"/>
-<smd name="P2" x="-0.916" y="-0.016" dx="0.27" dy="0.7" layer="1" rot="R270" stop="no" cream="no"/>
-<smd name="P3" x="-0.916" y="-0.666" dx="0.27" dy="0.7" layer="1" rot="R270" stop="no" cream="no"/>
-<smd name="P4" x="0.864" y="-0.666" dx="0.27" dy="0.7" layer="1" rot="R270" stop="no" cream="no"/>
-<smd name="P5" x="0.864" y="-0.016" dx="0.27" dy="0.7" layer="1" rot="R270" stop="no" cream="no"/>
-<smd name="P6" x="0.864" y="0.634" dx="0.27" dy="0.7" layer="1" rot="R270" stop="no" cream="no"/>
-<text x="-1.675" y="1.25233125" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="-1.802" y="-1.88533125" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
-<smd name="P7" x="-0.016" y="-0.016" dx="1.45" dy="0.65" layer="1" rot="R270" stop="no" cream="no"/>
-<circle x="-1.316" y="1.284" radius="0.180275" width="0" layer="21"/>
-<wire x1="-1.016" y1="1.034" x2="0.984" y2="1.034" width="0.127" layer="21"/>
-<wire x1="-1.016" y1="-1.056" x2="0.984" y2="-1.056" width="0.127" layer="21"/>
-<rectangle x1="-1.051" y1="-1.017" x2="-0.781" y2="-0.317" layer="29" rot="R90"/>
-<rectangle x1="-1.051" y1="-0.367" x2="-0.781" y2="0.333" layer="29" rot="R90"/>
-<rectangle x1="-1.051" y1="0.283" x2="-0.781" y2="0.983" layer="29" rot="R90"/>
-<rectangle x1="0.729" y1="-1.017" x2="0.999" y2="-0.317" layer="29" rot="R90"/>
-<rectangle x1="0.729" y1="-0.367" x2="0.999" y2="0.333" layer="29" rot="R90"/>
-<rectangle x1="0.729" y1="0.283" x2="0.999" y2="0.983" layer="29" rot="R90"/>
-<rectangle x1="-1.042" y1="-0.992" x2="-0.792" y2="-0.342" layer="31" rot="R90"/>
-<rectangle x1="-1.042" y1="-0.342" x2="-0.792" y2="0.308" layer="31" rot="R90"/>
-<rectangle x1="-1.042" y1="0.308" x2="-0.792" y2="0.958" layer="31" rot="R90"/>
-<rectangle x1="0.738" y1="-0.992" x2="0.988" y2="-0.342" layer="31" rot="R90"/>
-<rectangle x1="0.738" y1="-0.342" x2="0.988" y2="0.308" layer="31" rot="R90"/>
-<rectangle x1="0.738" y1="0.308" x2="0.988" y2="0.958" layer="31" rot="R90"/>
-<rectangle x1="-0.344" y1="-0.746" x2="0.312" y2="0.712" layer="29"/>
-<rectangle x1="-0.302" y1="-0.718" x2="0.268" y2="0.69" layer="31"/>
-<wire x1="-1.1684" y1="1.143" x2="-1.1684" y2="-1.1938" width="0.1524" layer="39"/>
-<wire x1="-1.1684" y1="-1.1938" x2="1.143" y2="-1.1938" width="0.1524" layer="39"/>
-<wire x1="1.143" y1="-1.1938" x2="1.143" y2="1.143" width="0.1524" layer="39"/>
-<wire x1="1.143" y1="1.143" x2="-1.1684" y2="1.143" width="0.1524" layer="39"/>
+<wire x1="0.999" y1="1" x2="-1.001" y2="1" width="0.1524" layer="51"/>
+<wire x1="-1.001" y1="1" x2="-1.001" y2="-1" width="0.1524" layer="51"/>
+<wire x1="-1.001" y1="-1" x2="0.999" y2="-1" width="0.1524" layer="51"/>
+<wire x1="0.999" y1="-1" x2="0.999" y2="1" width="0.1524" layer="51"/>
+<smd name="P1" x="-0.901" y="0.65" dx="0.27" dy="0.7" layer="1" rot="R270" stop="no" cream="no"/>
+<smd name="P2" x="-0.901" y="0" dx="0.27" dy="0.7" layer="1" rot="R270" stop="no" cream="no"/>
+<smd name="P3" x="-0.901" y="-0.65" dx="0.27" dy="0.7" layer="1" rot="R270" stop="no" cream="no"/>
+<smd name="P4" x="0.879" y="-0.65" dx="0.27" dy="0.7" layer="1" rot="R270" stop="no" cream="no"/>
+<smd name="P5" x="0.879" y="0" dx="0.27" dy="0.7" layer="1" rot="R270" stop="no" cream="no"/>
+<smd name="P6" x="0.879" y="0.65" dx="0.27" dy="0.7" layer="1" rot="R270" stop="no" cream="no"/>
+<text x="-1.66" y="1.26833125" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.787" y="-1.86933125" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+<smd name="P7" x="-0.001" y="0" dx="1.45" dy="0.65" layer="1" rot="R270" stop="no" cream="no"/>
+<circle x="-1.301" y="1.3" radius="0.180275" width="0" layer="21"/>
+<wire x1="-1.001" y1="1.05" x2="0.999" y2="1.05" width="0.127" layer="21"/>
+<wire x1="-1.001" y1="-1.04" x2="0.999" y2="-1.04" width="0.127" layer="21"/>
+<rectangle x1="-1.036" y1="-1.001" x2="-0.766" y2="-0.301" layer="29" rot="R90"/>
+<rectangle x1="-1.036" y1="-0.351" x2="-0.766" y2="0.349" layer="29" rot="R90"/>
+<rectangle x1="0.744" y1="-1.001" x2="1.014" y2="-0.301" layer="29" rot="R90"/>
+<rectangle x1="0.744" y1="-0.351" x2="1.014" y2="0.349" layer="29" rot="R90"/>
+<rectangle x1="0.744" y1="0.299" x2="1.014" y2="0.999" layer="29" rot="R90"/>
+<rectangle x1="-1.027" y1="-0.976" x2="-0.777" y2="-0.326" layer="31" rot="R90"/>
+<rectangle x1="-1.027" y1="-0.326" x2="-0.777" y2="0.324" layer="31" rot="R90"/>
+<rectangle x1="-1.027" y1="0.324" x2="-0.777" y2="0.974" layer="31" rot="R90"/>
+<rectangle x1="0.753" y1="-0.976" x2="1.003" y2="-0.326" layer="31" rot="R90"/>
+<rectangle x1="0.753" y1="-0.326" x2="1.003" y2="0.324" layer="31" rot="R90"/>
+<rectangle x1="0.753" y1="0.324" x2="1.003" y2="0.974" layer="31" rot="R90"/>
+<rectangle x1="-0.329" y1="-0.73" x2="0.327" y2="0.728" layer="29"/>
+<rectangle x1="-0.287" y1="-0.702" x2="0.283" y2="0.706" layer="31"/>
+<wire x1="-1.1534" y1="1.159" x2="-1.1534" y2="-1.1778" width="0.1524" layer="39"/>
+<wire x1="-1.1534" y1="-1.1778" x2="1.158" y2="-1.1778" width="0.1524" layer="39"/>
+<wire x1="1.158" y1="-1.1778" x2="1.158" y2="1.159" width="0.1524" layer="39"/>
+<wire x1="1.158" y1="1.159" x2="-1.1534" y2="1.159" width="0.1524" layer="39"/>
 </package>
 </packages>
 <symbols>
@@ -24079,7 +23926,7 @@ temperature range reaching as low as ±0.5 °C without requiring any further cal
 <connects>
 <connect gate="G$1" pin="!INT!" pad="P2"/>
 <connect gate="G$1" pin="ADDR" pad="P4"/>
-<connect gate="G$1" pin="GND" pad="P5"/>
+<connect gate="G$1" pin="GND" pad="P5 P7"/>
 <connect gate="G$1" pin="SCL" pad="P1"/>
 <connect gate="G$1" pin="SDA" pad="P6"/>
 <connect gate="G$1" pin="VDD" pad="P3"/>
@@ -24413,7 +24260,7 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <part name="FD1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 <part name="FD2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 <part name="D1" library="SparkFun-LED" deviceset="LED-RED" device="_0402" value="RED"/>
-<part name="R4" library="SparkFun-Resistors" deviceset="1KOHM" device="-0402T-1/16W-1%" value="1k"/>
+<part name="R4" library="SparkFun-Resistors" deviceset="2.2KOHM" device="-0402T-1/16W-1%" value="2.2k"/>
 <part name="LED" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1"/>
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND7" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
