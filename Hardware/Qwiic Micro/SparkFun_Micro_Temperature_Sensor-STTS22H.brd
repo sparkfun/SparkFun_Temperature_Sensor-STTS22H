@@ -55,7 +55,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -3115,7 +3115,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <contactref element="TP4" pad="1"/>
 <contactref element="U2" pad="P5"/>
 <contactref element="C1" pad="2"/>
-<contactref element="ADDR" pad="1"/>
 <via x="13.5128" y="1.5494" extent="1-16" drill="0.3048"/>
 <via x="5.5372" y="3.7592" extent="1-16" drill="0.3048"/>
 <via x="8.9916" y="2.0828" extent="1-16" drill="0.3048"/>
@@ -3207,6 +3206,12 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <contactref element="R5" pad="2"/>
 <wire x1="13.97" y1="3.31" x2="12.208" y2="3.31" width="0.3048" layer="1"/>
 <wire x1="12.208" y1="3.31" x2="11.938" y2="3.04" width="0.3048" layer="1"/>
+<contactref element="ADDR" pad="1"/>
+<wire x1="12.319" y1="4.8514" x2="13.1826" y2="4.8514" width="0.254" layer="16"/>
+<wire x1="13.589" y1="4.445" x2="13.589" y2="4.064" width="0.254" layer="16"/>
+<wire x1="13.843" y1="3.81" x2="14.68755" y2="3.81" width="0.254" layer="16"/>
+<wire x1="13.1826" y1="4.8514" x2="13.589" y2="4.445" width="0.254" layer="16"/>
+<wire x1="13.589" y1="4.064" x2="13.843" y2="3.81" width="0.254" layer="16"/>
 </signal>
 <signal name="N$5">
 <contactref element="R1" pad="2"/>

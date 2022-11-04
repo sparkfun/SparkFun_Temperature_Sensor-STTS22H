@@ -24331,9 +24331,9 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <part name="SUPPLY5" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="ADDR" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_1-NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39288/1"/>
 <part name="SUPPLY8" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="GND5" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402T-16V-10%" value="0.1uF"/>
 <part name="R5" library="SparkFun-Resistors" deviceset="15KOHM" device="-0402-TIGHT-1/16THW-1%" value="15K"/>
+<part name="SUPPLY7" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -24375,15 +24375,15 @@ accept 22AWG or smaller</text>
 <wire x1="35.56" y1="88.9" x2="53.34" y2="88.9" width="0.1524" layer="97"/>
 <wire x1="35.56" y1="83.82" x2="53.34" y2="83.82" width="0.1524" layer="97"/>
 <wire x1="53.34" y1="88.9" x2="78.74" y2="88.9" width="0.1524" layer="97"/>
-<text x="43.18" y="96.52" size="1.778" layer="97" font="vector" align="center">1 (VDD)</text>
-<text x="43.18" y="91.44" size="1.778" layer="97" font="vector" align="center">0 (GND)</text>
+<text x="43.18" y="96.52" size="1.778" layer="97" font="vector" align="center">1 (15k)</text>
+<text x="43.18" y="91.44" size="1.778" layer="97" font="vector" align="center">0 (VDD)</text>
 <text x="43.18" y="86.36" size="1.778" layer="97" font="vector" align="center">OPEN</text>
 <text x="66.04" y="86.36" size="1.778" layer="97" font="vector" align="center">Undefined</text>
 <text x="53.34" y="81.28" size="1.778" layer="97" font="vector" align="center">7-bit Unshifted</text>
 <wire x1="35.56" y1="93.98" x2="53.34" y2="93.98" width="0.1524" layer="97"/>
 <wire x1="53.34" y1="93.98" x2="78.74" y2="93.98" width="0.1524" layer="97"/>
 <text x="66.04" y="96.52" size="1.778" layer="97" font="vector" align="center">0x3C (Default)</text>
-<text x="66.04" y="91.44" size="1.778" layer="97" font="vector" align="center">0x3F</text>
+<text x="66.04" y="91.44" size="1.778" layer="97" font="vector" align="center">0x38</text>
 <wire x1="60.96" y1="101.6" x2="88.9" y2="101.6" width="0.1524" layer="97" style="dashdot"/>
 <wire x1="60.96" y1="101.6" x2="61.722" y2="102.362" width="0.1524" layer="97" style="dashdot"/>
 <wire x1="60.96" y1="101.6" x2="61.722" y2="100.838" width="0.1524" layer="97" style="dashdot"/>
@@ -24499,9 +24499,6 @@ accept 22AWG or smaller</text>
 <instance part="SUPPLY8" gate="G$1" x="83.82" y="119.38" smashed="yes">
 <attribute name="VALUE" x="83.82" y="122.174" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="GND5" gate="1" x="99.06" y="99.06" smashed="yes">
-<attribute name="VALUE" x="99.06" y="98.806" size="1.778" layer="96" font="vector" align="top-center"/>
-</instance>
 <instance part="C1" gate="G$1" x="55.88" y="134.62" smashed="yes">
 <attribute name="NAME" x="52.324" y="137.541" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="48.26" y="132.715" size="1.778" layer="96" font="vector"/>
@@ -24509,6 +24506,9 @@ accept 22AWG or smaller</text>
 <instance part="R5" gate="G$1" x="83.82" y="111.76" smashed="yes" rot="R90">
 <attribute name="NAME" x="82.296" y="111.76" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="85.344" y="111.76" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+</instance>
+<instance part="SUPPLY7" gate="G$1" x="99.06" y="111.76" smashed="yes">
+<attribute name="VALUE" x="99.06" y="114.554" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -24548,12 +24548,6 @@ accept 22AWG or smaller</text>
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="55.88" y1="132.08" x2="55.88" y2="129.54" width="0.1524" layer="91"/>
 <junction x="55.88" y="129.54"/>
-</segment>
-<segment>
-<pinref part="ADDR" gate="G$1" pin="1"/>
-<wire x1="96.52" y1="104.14" x2="99.06" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="104.14" x2="99.06" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="GND5" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -24644,6 +24638,12 @@ accept 22AWG or smaller</text>
 <pinref part="R5" gate="G$1" pin="2"/>
 <pinref part="SUPPLY8" gate="G$1" pin="3.3V"/>
 <wire x1="83.82" y1="116.84" x2="83.82" y2="119.38" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="ADDR" gate="G$1" pin="1"/>
+<wire x1="96.52" y1="104.14" x2="99.06" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="104.14" x2="99.06" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="SUPPLY7" gate="G$1" pin="3.3V"/>
 </segment>
 </net>
 <net name="N$5" class="0">
