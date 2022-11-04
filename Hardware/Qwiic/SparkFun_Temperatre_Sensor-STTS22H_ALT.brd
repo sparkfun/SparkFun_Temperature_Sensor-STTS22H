@@ -38,7 +38,7 @@
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -50,7 +50,7 @@
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
@@ -209,6 +209,7 @@
 <text x="2.54" y="39.37" size="1.778" layer="47" font="vector">Units in Inches</text>
 <dimension x1="2.54" y1="22.86" x2="0" y2="22.86" x3="1.27" y3="27.94" textsize="1.778" layer="47" dtype="horizontal" unit="inch"/>
 <dimension x1="6.35" y1="1.27" x2="0" y2="1.27" x3="3.175" y3="-3.81" textsize="1.778" layer="47" dtype="horizontal" unit="inch"/>
+<rectangle x1="11.557" y1="10.922" x2="13.843" y2="14.478" layer="30"/>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -6376,7 +6377,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="DESIGNER" value="Elias Santistevan" x="12.7" y="-16.51" size="1.778" layer="51" font="vector"/>
 <attribute name="REV" value="" x="-19.05" y="-16.51" size="1.778" layer="27" display="off"/>
 </element>
-<element name="LOGO2" library="SparkFun-Aesthetics" package="OSHW-LOGO-MINI" value="OSHW-LOGOMINI" x="23.7744" y="14.71295" smashed="yes" rot="MR0"/>
+<element name="LOGO2" library="SparkFun-Aesthetics" package="OSHW-LOGO-MINI" value="OSHW-LOGOMINI" x="4.4704" y="5.69595" smashed="yes" rot="MR0"/>
 <element name="STANDOFF1" library="SparkFun-Hardware" package="STAND-OFF-TIGHT" value="STAND-OFFTIGHT" x="2.54" y="22.86" smashed="yes"/>
 <element name="STANDOFF2" library="SparkFun-Hardware" package="STAND-OFF-TIGHT" value="STAND-OFFTIGHT" x="2.54" y="2.54" smashed="yes"/>
 <element name="R1" library="SparkFun-Resistors" package="0603" value="2.2k" x="10.16" y="17.78" smashed="yes" rot="R90">
@@ -6419,7 +6420,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="VALUE" x="23.6982" y="19.685" size="0.6096" layer="28" font="vector" ratio="20" rot="MR180" align="top-center"/>
 </element>
 <element name="U$16" library="bot" package="#LED#11" value="" x="23.622" y="16.9926" smashed="yes" rot="MR0"/>
-<element name="U$25" library="bot" package="#I2C#11" value="" x="12.7" y="6.985" smashed="yes" rot="MR0"/>
+<element name="U$25" library="bot" package="#I2C#11" value="" x="12.7" y="6.858" smashed="yes" rot="MR0"/>
 <element name="U$1" library="top" package="#GND#3" value="" x="7.62" y="3.937" smashed="yes" rot="R90"/>
 <element name="U$2" library="top" package="#3V3#4" value="" x="10.16" y="3.81" smashed="yes" rot="R90"/>
 <element name="U$3" library="top" package="#SDA#5" value="" x="12.7" y="3.937" smashed="yes" rot="R90"/>
@@ -6477,7 +6478,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </element>
 <element name="U$5" library="top" package="#SDA#7" value="" x="12.7" y="3.9116" smashed="yes" rot="MR270"/>
 <element name="U$7" library="top" package="#SCL#6" value="" x="15.24" y="3.7592" smashed="yes" rot="MR270"/>
-<element name="U$8" library="top" package="#ADDR1#9" value="" x="6.5024" y="16.5862" smashed="yes" rot="MR0"/>
+<element name="U$8" library="top" package="#ADDR1#9" value="" x="6.3754" y="16.7132" smashed="yes" rot="MR0"/>
 <element name="U$12" library="top" package="#0X3C#25" value="" x="14.4272" y="15.3416" smashed="yes" rot="MR0"/>
 <element name="U$13" library="top" package="#0X3E#25" value="" x="21.1836" y="15.3416" smashed="yes" rot="MR0"/>
 <element name="U$14" library="top" package="#0X3F#25" value="" x="9.5504" y="15.2908" smashed="yes" rot="MR0"/>
@@ -6536,7 +6537,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <via x="7.9248" y="4.318" extent="1-16" drill="0.3048"/>
 <via x="19.2532" y="6.6548" extent="1-16" drill="0.3048"/>
 <via x="15.6972" y="3.2512" extent="1-16" drill="0.3048"/>
-<via x="13.5636" y="9.5504" extent="1-16" drill="0.3048"/>
+<via x="14.1986" y="10.1854" extent="1-16" drill="0.3048"/>
 <wire x1="16.51" y1="12.7" x2="14.2748" y2="12.7" width="0.2032" layer="1"/>
 <via x="10.8712" y="3.2512" extent="1-16" drill="0.3048"/>
 <via x="8.89" y="5.1308" extent="1-16" drill="0.3048"/>
@@ -6545,7 +6546,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <via x="10.668" y="6.7056" extent="1-16" drill="0.3048"/>
 <via x="9.8044" y="5.8928" extent="1-16" drill="0.3048"/>
 <via x="17.9324" y="7.9756" extent="1-16" drill="0.3048"/>
-<via x="20.32" y="16.51" extent="1-16" drill="0.3048"/>
+<via x="21.717" y="17.907" extent="1-16" drill="0.3048"/>
 <contactref element="C1" pad="2"/>
 <via x="17.78" y="19.304" extent="1-16" drill="0.3048"/>
 <via x="20.32" y="19.304" extent="1-16" drill="0.3048"/>
@@ -6554,6 +6555,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <via x="13.716" y="17.3736" extent="1-16" drill="0.3048"/>
 <via x="16.51" y="17.653" extent="1-16" drill="0.3048"/>
 <via x="6.604" y="14.0462" extent="1-16" drill="0.3048"/>
+<via x="20.32" y="19.431" extent="1-16" drill="0.3048"/>
 </signal>
 <signal name="3.3V">
 <contactref element="I2C_PU" pad="2"/>
@@ -6571,7 +6573,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <via x="12.7" y="6.985" extent="1-16" drill="0.3048"/>
 <wire x1="12.7" y1="6.985" x2="12.7" y2="8.382" width="0.4064" layer="16"/>
 <wire x1="10.16" y1="8.1534" x2="11.3284" y2="6.985" width="0.4064" layer="1"/>
-<via x="11.176" y="11.176" extent="1-16" drill="0.3048"/>
 <polygon width="0.127" layer="1" thermals="no">
 <vertex x="11.8364" y="11.938"/>
 <vertex x="11.43" y="11.938"/>
