@@ -3298,20 +3298,20 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
 <errors>
-<approved hash="19,16,93db102ad260d39f"/>
-<approved hash="19,16,0e2a21963d36cfdd"/>
 <approved hash="4,1,e7f14637f72e4ebd"/>
 <approved hash="4,16,e7f14637f72e4ebd"/>
-<approved hash="6,1,7fc2884b03ea7d62"/>
-<approved hash="6,16,7fc2884b03ea7d62"/>
+<approved hash="1,20,4f05cdc5ce204ce0"/>
+<approved hash="19,1,504b503d46354643"/>
+<approved hash="19,16,93db102ad260d39f"/>
 <approved hash="19,16,c007c267c019c003"/>
+<approved hash="19,16,cd864ae68ca08c9a"/>
+<approved hash="19,16,0e2a21963d36cfdd"/>
+<approved hash="6,1,7fc2884b03ea7d62"/>
 <approved hash="6,16,15731e1d7260b6c8"/>
 <approved hash="6,16,9f14f2d67f0a2819"/>
 <approved hash="6,16,525a2115acce4d0e"/>
 <approved hash="6,16,b9f8f76c9c25c66d"/>
-<approved hash="19,16,cd864ae68ca08c9a"/>
-<approved hash="1,20,4f05cdc5ce204ce0"/>
-<approved hash="19,1,504b503d46354643"/>
+<approved hash="6,16,7fc2884b03ea7d62"/>
 </errors>
 </board>
 </drawing>
