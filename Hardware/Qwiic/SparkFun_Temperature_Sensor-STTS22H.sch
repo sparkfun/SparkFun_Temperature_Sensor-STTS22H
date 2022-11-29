@@ -23202,7 +23202,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </device>
 </devices>
 </deviceset>
-<deviceset name="56KOHM" prefix="R" uservalue="yes">
+<deviceset name="57.6KOHM" prefix="R">
+<description>&lt;h3&gt;57.6 kΩ resistor&lt;/h3&gt;
+&lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
@@ -23214,7 +23216,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </connects>
 <technologies>
 <technology name="">
-<attribute name="VALUE" value="56k"/>
+<attribute name="PROD_ID" value="RES-15818" constant="no"/>
+<attribute name="VALUE" value="57.6k" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -24711,7 +24714,7 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <part name="LOGO4" library="SparkFun-Aesthetics" deviceset="QWIIC_LOGO" device="_4MM"/>
 <part name="J3" library="SparkFun-Connectors" deviceset="CONN_05" device="NO_SILK"/>
 <part name="ADDR" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_1-NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39288/1"/>
-<part name="R7" library="SparkFun-Resistors" deviceset="56KOHM" device="" value="56k"/>
+<part name="R7" library="SparkFun-Resistors" deviceset="57.6KOHM" device="" value="57.6k"/>
 <part name="R8" library="SparkFun-Resistors" deviceset="15KOHM" device="-0603-1/10W-1%" value="15k"/>
 <part name="SUPPLY11" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="U2" library="STTS22H" deviceset="STTS22H" device=""/>
