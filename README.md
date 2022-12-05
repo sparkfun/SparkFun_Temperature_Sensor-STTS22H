@@ -1,4 +1,4 @@
-# SparkFun_Temperature_Sensor-STTS22H
+# SparkFun Temperature_Sensor STTS22H
 ========================================
 
 <table class="table table-hover table-striped table-bordered">
