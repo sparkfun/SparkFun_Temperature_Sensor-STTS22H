@@ -30,7 +30,7 @@ Repository Contents
 Documentation
 --------------
 * **[Library](https://github.com/sparkfun/SparkFun_STTS22H_Arduino_Library)** - Arduino library for the SparkFun Temperature Sensor STTS22H.
-* **[Hookup Guide]([Learn.SparkFun URL](https://learn.sparkfun.com/tutorials/sparkfun-temperature-sensor---stts22h-qwiic-hookup-guide))** - Basic hookup guide for the SparkFun Temperature Sensor STTS22H.
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/sparkfun-temperature-sensor---stts22h-qwiic-hookup-guide)** - Basic hookup guide for the SparkFun Temperature Sensor STTS22H.
 
 
 License Information
