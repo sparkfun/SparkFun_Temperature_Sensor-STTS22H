@@ -37,7 +37,8 @@ Alternatively, you can copy and paste the code below into a nice new Arduino ske
 
 Note that depending on which processor board you are using, you may need to alter the Interrupt Pin. Since we're using a RedBoard here, our Interrupt Pin is 2 (`ensInt = 2`). Also, in this example, we've used an [IC hook with a pigtail](https://www.sparkfun.com/products/9741) to connect the Interrupt Pin to the RedBoard pin 2, but you can also [solder headers](https://learn.sparkfun.com/tutorials/how-to-solder---through-hole-soldering) to the STTS22H Temperature Sensor so you can use the interrupt pin. Your hardware hookup should look something like the following: 
 
-<div style="text-align: center"><a href="../assets/imgs/Air Quality Sensor Action Shot-1.jpg"><img src="../assets/imgs/Air Quality Sensor Action Shot-1.jpg" alt="Use the Qwiic connectors to connect the boards to each other and use a jumper to connect the INT pin to Pin 2 of the RedBoard"></a></div>
+
+<div style="text-align: center"><a href="../assets/imgs/21262-Temperature_Sensor-STTS22H_InterruptExample.jpg"><img src="../assets/imgs/21262-Temperature_Sensor-STTS22H_InterruptExample.jpg" alt="Use the Qwiic connectors to connect the boards to each other and use a jumper to connect the INT pin to Pin 2 of the RedBoard"></a></div>
 
 
 Once you've got your code uploaded, open up a [Serial Monitor](https://learn.sparkfun.com/tutorials/terminal-basics) and check out your output. 
