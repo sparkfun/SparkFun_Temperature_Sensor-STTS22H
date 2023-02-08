@@ -2,7 +2,7 @@
   <a href="https://github.com/sparkfun/SparkFun_Temperature_Sensor-STTS22H/issues" alt="Issues">
     <img src="https://img.shields.io/github/issues/sparkfun/SparkFun_Temperature_Sensor-STTS22H.svg" /></a>
   <a href="https://github.com/sparkfun/SparkFun_Temperature_Sensor-STTS22H/actions" alt="Actions">
-    <img src="https://github.com/sparkfun/SparkFun_u-blox_MAX-M10S/actions/workflows/mkdocs.yml/badge.svg" /></a>
+    <img src="https://github.com/sparkfun/SparkFun_Temperature_Sensor-STTS22H/actions/workflows/mkdocs.yml/badge.svg" /></a>
   <a href="https://github.com/sparkfun/SparkFun_Temperature_Sensor-STTS22H/blob/main/LICENSE.md" alt="License">
     <img src="https://img.shields.io/badge/license-CC%20BY--SA%204.0-blue.svg"/></a>
   <a href="https://twitter.com/intent/follow?screen_name=sparkfun">
