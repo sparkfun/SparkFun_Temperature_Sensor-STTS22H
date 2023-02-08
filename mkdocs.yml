@@ -69,11 +69,21 @@ theme:
       example: octicons/beaker-16
       quote: octicons/quote-16
 
+# Adds PDF icon to download hookup guide
+  custom_dir: docs/overrides
 
 
+# Included MkDocs plugins
+# Add the installation of any new plugins to the ./github/workflows/mkdocs.yml file also
 plugins:
   - search
   - monorepo
+  # For PDF rendering
+  - with-pdf:
+      cover_subtitle: none
+      cover_logo: assets/img/sfe_logo_sm.png
+      exclude_pages: [ "print_pdf", "file_issue", "contribute" ]
+      output_path: assets/SparkFun_Temperature_Sensor-STTS22H-hookup_guide.pdf
 
 # Included Markdown extensions
 markdown_extensions:
@@ -120,6 +130,11 @@ extra:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/sparkfun
 
+# Configures styling for PDF rendering and webpage layout
+extra_css:
+  - overrides/extra.css
+
+
 nav:
   - SparkFun Temperature Sensor - STTS22H (Qwiic) Hookup Guide:
     - Introduction: index.md
@@ -127,8 +142,12 @@ nav:
     - Hardware Assembly: hardware_assembly.md
     - Software Setup and Programming: software_setup_and_programming.md
     - Examples: examples.md
+    - Download Hookup Guide: print_pdf.md
+  - Hardware Resources:
+    - Resources: resources_and_going_further.md
+  - Support:
     - Troubleshooting: troubleshooting.md
-    - Resources and Going Further: resources_and_going_further.md
-  - Issues and Contributing:
     - Issues: file_issue.md
     - Contributing: contribute.md
+    - Forums: contribute.md
+    - FAQ: faq.md
