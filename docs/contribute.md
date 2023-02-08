@@ -1,5 +1,5 @@
 # Contribute: Help Fix our Mistake!
-Spot something wrong? Feel free to contribute our open-source design and documentation. <a href="https://github.com/sparkfun/SparkFun_Temperature_Sensor-STTS22H/pulls" alt="Pull Requests"><img src="https://img.shields.io/github/issues-pr/sparkfun/SparkFun_u-blox_MAX-M10S.svg" /></a>
+Spot something wrong? Feel free to contribute our open-source design and documentation. <a href="https://github.com/sparkfun/SparkFun_Temperature_Sensor-STTS22H/pulls" alt="Pull Requests"><img src="https://img.shields.io/github/issues-pr/sparkfun/SparkFun_Temperature_Sensor-STTS22H.svg" /></a>
 
 ## Improve our Documentation
 All of this documentation can be modified by you! Please help us make it better.
@@ -28,6 +28,6 @@ All of our designs are open-source! Please help us make it better.
 ## Contributors
 Let's provided some recognition to the contributors for this project!
 
-![GitHub Contributors Image](https://contrib.rocks/image?repo=sparkfun/SparkFun_u-blox_MAX-M10S)
+![GitHub Contributors Image](https://contrib.rocks/image?repo=sparkfun/SparkFun_Temperature_Sensor-STTS22H)
 <br>
-<a href="https://github.com/sparkfun/SparkFun_Temperature_Sensor-STTS22H/pulls" alt="Pull Requests"><img src="https://img.shields.io/github/contributors/sparkfun/SparkFun_u-blox_MAX-M10S.svg" /></a>
+<a href="https://github.com/sparkfun/SparkFun_Temperature_Sensor-STTS22H/pulls" alt="Pull Requests"><img src="https://img.shields.io/github/contributors/sparkfun/SparkFun_Temperature_Sensor-STTS22H.svg" /></a>
