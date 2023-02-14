@@ -46,11 +46,11 @@ Once you've got your code uploaded, open up a [Serial Monitor](https://learn.spa
 
 If you have a look at the code, you'll notice that we've set our upper threshhold to 90.5 degrees F, and our lower threshhold to 42 degrees F. I held the sensor in front of a heater to hit the upper threshhold: 
 
-<div style="text-align: center"><a href="..\assets\imgs\example2_Output.jpg"><img src="../assets\imgs\example2_Output.jpg" alt="Serial monitor output"></a></div>
+<div style="text-align: center"><a href="../assets/imgs/example2_Output.jpg"><img src="../assets/imgs/example2_Output.jpg" alt="Serial monitor output"></a></div>
 
 The lower threshhold was reached by sticking the sensor in a plastic bag and then putting that plastic bag into ice water:
 
-<div style="text-align: center"><a href="..\assets\imgs\example2_Output_LowerThresh.jpg"><img src="../assets\imgs\example2_Output_LowerThresh.jpg" alt="Serial monitor output"></a></div>
+<div style="text-align: center"><a href="../assets/imgs/example2_Output_LowerThresh.jpg"><img src="../assets/imgs/example2_Output_LowerThresh.jpg" alt="Serial monitor output"></a></div>
 
 ### Example 3: One Shot
 

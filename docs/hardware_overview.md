@@ -13,8 +13,8 @@ The STTS22H is an ultralow-power, high-accuracy, digital temperature sensor offe
 </style>
 <table class="tg">
   <tr>
-    <th class="tg-v0mg"><a href="..\assets\imgs\21262-Temperature_Sensor-STTS22H_Sensor.jpg"><img src="..\assets\imgs\21262-Temperature_Sensor-STTS22H_Sensor.jpg" alt="STTS22 Highlight"></a></th>
-    <th class="tg-v0mg"><a href="..\assets\imgs\21273-Micro_Temperature_Sensor-STTS22H-Sensor.png"><img src="..\assets\imgs\21273-Micro_Temperature_Sensor-STTS22H-Sensor.png" alt="STTS22 Highlight on Micro"></a></th>
+    <th class="tg-v0mg"><a href="../assets/imgs/21262-Temperature_Sensor-STTS22H_Sensor.jpg"><img src="../assets/imgs/21262-Temperature_Sensor-STTS22H_Sensor.jpg" alt="STTS22 Highlight"></a></th>
+    <th class="tg-v0mg"><a href="../assets/imgs/21273-Micro_Temperature_Sensor-STTS22H-Sensor.png"><img src="../assets/imgs/21273-Micro_Temperature_Sensor-STTS22H-Sensor.png" alt="STTS22 Highlight on Micro"></a></th>
   </tr>
   <tr>
     <td class="tg-v0mg"><i>STTS22</i></td>
@@ -37,8 +37,8 @@ There are two Qwiic connectors on either side of the SparkFun Temperature Sensor
 </style>
 <table class="tg">
   <tr>
-    <th class="tg-v0mg"><a href="..\assets\imgs\21262-Temperature_Sensor-STTS22H_QwiicConnectors.jpg"><img src="..\assets\imgs\21262-Temperature_Sensor-STTS22H_QwiicConnectors.jpg" alt="Qwiic Connectors"></a></th>
-    <th class="tg-v0mg"><a href="..\assets\imgs\21273-Micro_Temperature_Sensor-STTS22H-QwiicConnector.png"><img src="..\assets\imgs\21273-Micro_Temperature_Sensor-STTS22H-QwiicConnector.png" alt="Qwiic Connector on Micro"></a></th>
+    <th class="tg-v0mg"><a href="../assets/imgs/21262-Temperature_Sensor-STTS22H_QwiicConnectors.jpg"><img src="../assets/imgs/21262-Temperature_Sensor-STTS22H_QwiicConnectors.jpg" alt="Qwiic Connectors"></a></th>
+    <th class="tg-v0mg"><a href="../assets/imgs/21273-Micro_Temperature_Sensor-STTS22H-QwiicConnector.png"><img src="../assets/imgs/21273-Micro_Temperature_Sensor-STTS22H-QwiicConnector.png" alt="Qwiic Connector on Micro"></a></th>
   </tr>
   <tr>
     <td class="tg-v0mg"><i>Qwiic Connectors</i></td>
@@ -59,8 +59,8 @@ Ideally, power will be supplied via the Qwiic connector(s). Alternatively, power
 </style>
 <table class="tg">
   <tr>
-    <th class="tg-v0mg"><a href="..\assets\imgs\21262-Temperature_Sensor-STTS22H_PowerPins.jpg"><img src="..\assets\imgs\21262-Temperature_Sensor-STTS22H_PowerPins.jpg" alt="3.3V & GND Pins"></a></th>
-    <th class="tg-v0mg"><a href="..\assets\imgs\21273-Micro_Temperature_Sensor-STTS22H-GroundPin.png"><img src="..\assets\imgs\21273-Micro_Temperature_Sensor-STTS22H-GroundPin.png" alt="GND Pin on Micro"></a></th>
+    <th class="tg-v0mg"><a href="../assets/imgs/21262-Temperature_Sensor-STTS22H_PowerPins.jpg"><img src="../assets/imgs/21262-Temperature_Sensor-STTS22H_PowerPins.jpg" alt="3.3V & GND Pins"></a></th>
+    <th class="tg-v0mg"><a href="../assets/imgs/21273-Micro_Temperature_Sensor-STTS22H-GroundPin.png"><img src="../assets/imgs/21273-Micro_Temperature_Sensor-STTS22H-GroundPin.png" alt="GND Pin on Micro"></a></th>
   </tr>
   <tr>
     <td class="tg-v0mg"><i>3.3V & GND Pins</i></td>
@@ -82,8 +82,8 @@ An interrupt pin is available to signal the application whenever the selectable 
 </style>
 <table class="tg">
   <tr>
-    <th class="tg-v0mg"><a href="..\assets\imgs\21262-Temperature_Sensor-STTS22H_InterruptPin.jpg"><img src="..\assets\imgs\21262-Temperature_Sensor-STTS22H_InterruptPin.jpg" alt="Interrupt Pin"></a></th>
-    <th class="tg-v0mg"><a href="..\assets\imgs\21273-Micro_Temperature_Sensor-STTS22H-InterruptPin.png"><img src="..\assets\imgs\21273-Micro_Temperature_Sensor-STTS22H-InterruptPin.png" alt="Interrupt Pin on Micro"></a></th>
+    <th class="tg-v0mg"><a href="../assets/imgs/21262-Temperature_Sensor-STTS22H_InterruptPin.jpg"><img src="../assets/imgs/21262-Temperature_Sensor-STTS22H_InterruptPin.jpg" alt="Interrupt Pin"></a></th>
+    <th class="tg-v0mg"><a href="../assets/imgs/21273-Micro_Temperature_Sensor-STTS22H-InterruptPin.png"><img src="../assets/imgs/21273-Micro_Temperature_Sensor-STTS22H-InterruptPin.png" alt="Interrupt Pin on Micro"></a></th>
   </tr>
   <tr>
     <td class="tg-v0mg"><i>Interrupt Pin</i></td>
@@ -105,8 +105,8 @@ Hopefully this is self-explanatory, but this LED lights up when power is supplie
 </style>
 <table class="tg">
   <tr>
-    <th class="tg-v0mg"><a href="..\assets\imgs\21262-Temperature_Sensor-STTS22H_PowerLED.jpg"><img src="..\assets\imgs\21262-Temperature_Sensor-STTS22H_PowerLED.jpg" alt="Power LED"></a></th>
-    <th class="tg-v0mg"><a href="..\assets\imgs\21273-Micro_Temperature_Sensor-STTS22H-PowerLED.png"><img src="..\assets\imgs\21273-Micro_Temperature_Sensor-STTS22H-PowerLED.png" alt="Power LED on Micro"></a></th>
+    <th class="tg-v0mg"><a href="../assets/imgs/21262-Temperature_Sensor-STTS22H_PowerLED.jpg"><img src="../assets/imgs/21262-Temperature_Sensor-STTS22H_PowerLED.jpg" alt="Power LED"></a></th>
+    <th class="tg-v0mg"><a href="../assets/imgs/21273-Micro_Temperature_Sensor-STTS22H-PowerLED.png"><img src="../assets/imgs/21273-Micro_Temperature_Sensor-STTS22H-PowerLED.png" alt="Power LED on Micro"></a></th>
   </tr>
   <tr>
     <td class="tg-v0mg"><i>Power LED</i></td>
@@ -126,8 +126,8 @@ There's an extra pad on the bottom side of each board that allows for the most a
 </style>
 <table class="tg">
   <tr>
-    <th class="tg-v0mg"><a href="..\assets\imgs\21262-Temperature_Sensor-STTS22H_BareCopperSensorPad.jpg"><img src="..\assets\imgs\21262-Temperature_Sensor-STTS22H_BareCopperSensorPad.jpg" alt="Exposed Pad"></a></th>
-    <th class="tg-v0mg"><a href="..\assets\imgs\21273-Micro_Temperature_Sensor-STTS22H-BareCopperSensorPad.png"><img src="..\assets\imgs\21273-Micro_Temperature_Sensor-STTS22H-BareCopperSensorPad.png" alt="Exposed Pad on Micro"></a></th>
+    <th class="tg-v0mg"><a href="../assets/imgs/21262-Temperature_Sensor-STTS22H_BareCopperSensorPad.jpg"><img src="../assets/imgs/21262-Temperature_Sensor-STTS22H_BareCopperSensorPad.jpg" alt="Exposed Pad"></a></th>
+    <th class="tg-v0mg"><a href="../assets/imgs/21273-Micro_Temperature_Sensor-STTS22H-BareCopperSensorPad.png"><img src="../assets/imgs/21273-Micro_Temperature_Sensor-STTS22H-BareCopperSensorPad.png" alt="Exposed Pad on Micro"></a></th>
   </tr>
   <tr>
     <td class="tg-v0mg"><i>Exposed Pad</i></td>
@@ -152,8 +152,8 @@ If power consumption is an issue, cut this jumper to disable the LED on the fron
 </style>
 <table class="tg">
   <tr>
-    <th class="tg-v0mg"><a href="..\assets\imgs\21262-Temperature_Sensor-STTS22H_LED-Jumper.jpg"><img src="..\assets\imgs\21262-Temperature_Sensor-STTS22H_LED-Jumper.jpg" alt="Power LED Jumper"></a></th>
-    <th class="tg-v0mg"><a href="..\assets\imgs\21273-Micro_Temperature_Sensor-STTS22H-LED-Jumper.png"><img src="..\assets\imgs\21273-Micro_Temperature_Sensor-STTS22H-LED-Jumper.png" alt="Power LED Jumperon Micro"></a></th>
+    <th class="tg-v0mg"><a href="../assets/imgs/21262-Temperature_Sensor-STTS22H_LED-Jumper.jpg"><img src="../assets/imgs/21262-Temperature_Sensor-STTS22H_LED-Jumper.jpg" alt="Power LED Jumper"></a></th>
+    <th class="tg-v0mg"><a href="../assets/imgs/21273-Micro_Temperature_Sensor-STTS22H-LED-Jumper.png"><img src="../assets/imgs/21273-Micro_Temperature_Sensor-STTS22H-LED-Jumper.png" alt="Power LED Jumperon Micro"></a></th>
   </tr>
   <tr>
     <td class="tg-v0mg"><i>Power LED Jumper</i></td>
@@ -201,8 +201,8 @@ The 1x1 board has two address jumpers available. The default I<sup>2</sup>C addr
 </style>
 <table class="tg">
   <tr>
-    <th class="tg-v0mg"><a href="..\assets\imgs\21262-Temperature_Sensor-STTS22H_ADDR-Jumper.jpg"><img src="..\assets\imgs\21262-Temperature_Sensor-STTS22H_ADDR-Jumper.jpg" alt="Address Jumper"></a></th>
-    <th class="tg-v0mg"><a href="..\assets\imgs\21262-Temperature_Sensor-STTS22H_ADDR1-Jumper.jpg"><img src="..\assets\imgs\21262-Temperature_Sensor-STTS22H_ADDR1-Jumper.jpg" alt="Address Jumper 1"></a></th>
+    <th class="tg-v0mg"><a href="../assets/imgs/21262-Temperature_Sensor-STTS22H_ADDR-Jumper.jpg"><img src="../assets/imgs/21262-Temperature_Sensor-STTS22H_ADDR-Jumper.jpg" alt="Address Jumper"></a></th>
+    <th class="tg-v0mg"><a href="../assets/imgs/21262-Temperature_Sensor-STTS22H_ADDR1-Jumper.jpg"><img src="../assets/imgs/21262-Temperature_Sensor-STTS22H_ADDR1-Jumper.jpg" alt="Address Jumper 1"></a></th>
   </tr>
   <tr>
     <td class="tg-v0mg"><i>Address Jumper</i></td>
@@ -221,7 +221,7 @@ The Micro version of this board has a single address jumper that affords the abi
 </style>
 <table class="tg">
   <tr>
-    <th class="tg-v0mg"><a href="..\assets\imgs\21273-Micro_Temperature_Sensor-STTS22H-Address-Jumper.png"><img src="..\assets\imgs\21273-Micro_Temperature_Sensor-STTS22H-Address-Jumper.png" alt="Address Jumper on Micro"></a></th>
+    <th class="tg-v0mg"><a href="../assets/imgs/21273-Micro_Temperature_Sensor-STTS22H-Address-Jumper.png"><img src="../assets/imgs/21273-Micro_Temperature_Sensor-STTS22H-Address-Jumper.png" alt="Address Jumper on Micro"></a></th>
   </tr>
   <tr>
     <td class="tg-v0mg"><i>Address Jumper on Micro</i></td>
@@ -242,8 +242,8 @@ These boards are both equipped with pull-up resistors. If you are daisy-chaining
 </style>
 <table class="tg">
   <tr>
-    <th class="tg-v0mg"><a href="..\assets\imgs\21262-Temperature_Sensor-STTS22H_I2C-Jumper.jpg"><img src="..\assets\imgs\21262-Temperature_Sensor-STTS22H_I2C-Jumper.jpg" alt="I<sup>2</sup>C Jumper"></a></th>
-    <th class="tg-v0mg"><a href="..\assets\imgs\21273-Micro_Temperature_Sensor-STTS22H-I2C-Jumper.png"><img src="..\assets\imgs\21273-Micro_Temperature_Sensor-STTS22H-I2C-Jumper.png" alt="I<sup>2</sup>C Jumper on Micro"></a></th>
+    <th class="tg-v0mg"><a href="../assets/imgs/21262-Temperature_Sensor-STTS22H_I2C-Jumper.jpg"><img src="../assets/imgs/21262-Temperature_Sensor-STTS22H_I2C-Jumper.jpg" alt="I<sup>2</sup>C Jumper"></a></th>
+    <th class="tg-v0mg"><a href="../assets/imgs/21273-Micro_Temperature_Sensor-STTS22H-I2C-Jumper.png"><img src="../assets/imgs/21273-Micro_Temperature_Sensor-STTS22H-I2C-Jumper.png" alt="I<sup>2</sup>C Jumper on Micro"></a></th>
   </tr>
   <tr>
     <td class="tg-v0mg"><i>I<sup>2</sup>C Jumper</i></td>
@@ -263,7 +263,7 @@ The standard Temperature Sensor STTS22H Breakout measures 1" x 1".
 </style>
 <table class="tg">
   <tr>
-    <th class="tg-v0mg"><a href="..\assets\imgs\21262-SparkFun_Temperature_Sensor-STTS22H-BoardOutline.png"><img src="..\assets\imgs\21262-SparkFun_Temperature_Sensor-STTS22H-BoardOutline.png" alt="Address Jumper on Micro"></a></th>
+    <th class="tg-v0mg"><a href="../assets/imgs/21262-SparkFun_Temperature_Sensor-STTS22H-BoardOutline.png"><img src="../assets/imgs/21262-SparkFun_Temperature_Sensor-STTS22H-BoardOutline.png" alt="Address Jumper on Micro"></a></th>
   </tr>
   <tr>
     <td class="tg-v0mg"><i>Board Outline of 1" x 1"</i></td>
@@ -281,7 +281,7 @@ The Micro Temperature Sensor STTS22H Breakout measures 0.75" x 0.3".
 </style>
 <table class="tg">
   <tr>
-    <th class="tg-v0mg"><a href="..\assets\imgs\21273-SparkFun_Micro_Temperature_Sensor-STTS22H-BoardOutline.png"><img src="..\assets\imgs\21273-SparkFun_Micro_Temperature_Sensor-STTS22H-BoardOutline.png"></a></th>
+    <th class="tg-v0mg"><a href="../assets/imgs/21273-SparkFun_Micro_Temperature_Sensor-STTS22H-BoardOutline.png"><img src="../assets/imgs/21273-SparkFun_Micro_Temperature_Sensor-STTS22H-BoardOutline.png"></a></th>
   </tr>
   <tr>
     <td class="tg-v0mg"><i>Board Outline of Micro</i></td>

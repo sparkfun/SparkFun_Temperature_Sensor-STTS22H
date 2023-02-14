@@ -136,7 +136,7 @@ extra_css:
 
 
 nav:
-  - SparkFun Temperature Sensor - STTS22H (Qwiic) Hookup Guide:
+  - Hookup Guide:
     - Introduction: index.md
     - Hardware Overview: hardware_overview.md
     - Hardware Assembly: hardware_assembly.md

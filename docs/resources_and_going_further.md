@@ -3,22 +3,22 @@ Now that you've successfully got your STTS22H Temperature Sensor up and running,
 SparkFun Temperature Sensor - STTS22H (Qwiic):
 
 
-* [Schematic (PDF)](\assets\BoardFiles\21262-SparkFun_Temperature_Sensor-STTS22H-EagleFiles.zip)
-* [Eagle Files](\assets\BoardFiles\21262-SparkFun_Temperature_Sensor-STTS22H-EagleFiles.zip)
-* [Board Outline (PNG)](\assets\imgs\21262-SparkFun_Temperature_Sensor-STTS22H-BoardOutline.png)
+* [Schematic (PDF)](/assets/BoardFiles/21262-SparkFun_Temperature_Sensor-STTS22H-EagleFiles.zip)
+* [Eagle Files](/assets/BoardFiles/21262-SparkFun_Temperature_Sensor-STTS22H-EagleFiles.zip)
+* [Board Outline (PNG)](/assets/imgs/21262-SparkFun_Temperature_Sensor-STTS22H-BoardOutline.png)
 
 
 
 SparkFun Micro Temperature Sensor - STTS22H (Qwiic):
 
-* [Schematic (PDF)](\assets\BoardFiles\SparkFun_Micro_Temperature_Sensor-STTS22H-Schematic.pdf)
-* [Eagle Files](\assets\BoardFiles\21273-SparkFun_Micro_Temperature_Sensor-STTS22H-EagleFiles.zip)
-* [Board Outline (PNG)](\assets\imgs\21273-SparkFun_Micro_Temperature_Sensor-STTS22H-BoardOutline.png)
+* [Schematic (PDF)](/assets/BoardFiles/SparkFun_Micro_Temperature_Sensor-STTS22H-Schematic.pdf)
+* [Eagle Files](/assets/BoardFiles/21273-SparkFun_Micro_Temperature_Sensor-STTS22H-EagleFiles.zip)
+* [Board Outline (PNG)](/assets/imgs/21273-SparkFun_Micro_Temperature_Sensor-STTS22H-BoardOutline.png)
  
 
 General Information: 
 
-* [Datasheet(PDF)](\assets\imgs\STTS22h-Datasheet.pdf)
+* [Datasheet(PDF)](/assets/imgs/STTS22h-Datasheet.pdf)
 * [Qwiic Info Page](https://www.sparkfun.com/qwiic)
 * [STTS22H Arduino Library](https://github.com/sparkfun/SparkFun_STTS22H_Arduino_Library)
 * [GitHub Hardware Repo](https://github.com/sparkfun/SparkFun_Temperature_Sensor-STTS22H)
