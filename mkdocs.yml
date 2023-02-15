@@ -15,6 +15,7 @@ copyright: Copyright 2022 SparkFun Electronics (6333 Dry Creek Parkway, Niwot, C
 theme:
   name: material
   logo: assets/sfe_logo_sm.png
+  favicon: assets/favicon.png
   font:
     text: Roboto
     code: Roboto Mono
