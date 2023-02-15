@@ -33,6 +33,8 @@ The [SparkFun Temperature Sensor - STTS22H (Qwiic)](https://www.sparkfun.com/pro
 </table>
 
 
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/ffbvpoyrDyg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
+
 ### Required Materials
 
 To follow along with this tutorial, you will need the following materials. You may not need everything though depending on what you have. Add it to your cart, read through the guide, and adjust the cart as necessary.

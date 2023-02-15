@@ -1,24 +1,19 @@
 
-###STTS22
+###STTS22H
 
 
 The STTS22H is an ultralow-power, high-accuracy, digital temperature sensor offering high performance over the entire operating temperature range. Thanks to its factory calibration the STTS22H offers high-end accuracy performance over the entire operating temperature range, reaching as low as ±0.5 °C without requiring any further calibration at the application level. The sensor operating mode is user-configurable and allows selecting between different ODRs (down to 1 Hz) or the one-shot mode for battery saving. In one-shot mode, the sensor current consumption falls to 1.75 µA. For more information, refer to the [datasheet](https://cdn.sparkfun.com/assets/3/0/b/7/6/STTS22h-Datasheet.pdf). 
 
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-v0mg{border-color:#ffffff;text-align:center;vertical-align:middle}
-</style>
+
 <table class="tg">
   <tr>
-    <th class="tg-v0mg"><a href="../assets/imgs/21262-Temperature_Sensor-STTS22H_Sensor.jpg"><img src="../assets/imgs/21262-Temperature_Sensor-STTS22H_Sensor.jpg" alt="STTS22 Highlight"></a></th>
-    <th class="tg-v0mg"><a href="../assets/imgs/21273-Micro_Temperature_Sensor-STTS22H-Sensor.png"><img src="../assets/imgs/21273-Micro_Temperature_Sensor-STTS22H-Sensor.png" alt="STTS22 Highlight on Micro"></a></th>
+    <th class="tg-v0mg"><a href="../assets/imgs/21262-Temperature_Sensor-STTS22H_Sensor.jpg"><img src="../assets/imgs/21262-Temperature_Sensor-STTS22H_Sensor.jpg" alt="STTS22H Highlight"></a></th>
+    <th class="tg-v0mg"><a href="../assets/imgs/21273-Micro_Temperature_Sensor-STTS22H-Sensor.png"><img src="../assets/imgs/21273-Micro_Temperature_Sensor-STTS22H-Sensor.png" alt="STTS22H Highlight on Micro"></a></th>
   </tr>
   <tr>
-    <td class="tg-v0mg"><i>STTS22</i></td>
-    <td class="tg-v0mg"><i>STTS22 on Micro</i></td>
+    <td class="tg-v0mg"><i>STTS22H</i></td>
+    <td class="tg-v0mg"><i>STTS22H on Micro</i></td>
   </tr>
 </table>
 
@@ -29,12 +24,7 @@ The STTS22H is an ultralow-power, high-accuracy, digital temperature sensor offe
 
 There are two Qwiic connectors on either side of the SparkFun Temperature Sensor - STTS22H to provide power and I<sup>2</sup>C connectivity simultaneously. The Micro version has a single Qwiic connector that again provides power and I<sup>2</sup>C connectivity. The I<sup>2</sup>C address of both boards is <b>0x3C</b> by default, but the 1x1 board has 3 other addresses the board can be configured to use, while the Micro has 1 other address available.
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-v0mg{border-color:#ffffff;text-align:center;vertical-align:middle}
-</style>
+
 <table class="tg">
   <tr>
     <th class="tg-v0mg"><a href="../assets/imgs/21262-Temperature_Sensor-STTS22H_QwiicConnectors.jpg"><img src="../assets/imgs/21262-Temperature_Sensor-STTS22H_QwiicConnectors.jpg" alt="Qwiic Connectors"></a></th>
@@ -51,12 +41,7 @@ There are two Qwiic connectors on either side of the SparkFun Temperature Sensor
 Ideally, power will be supplied via the Qwiic connector(s). Alternatively, power can be supplied through the header along the bottom side of the board labeled `3V3` and `GND`. The input voltage range should be between <b>1.5</b>-<b>3.6V</b>. The Micro version has a single Ground Pin available. 
 
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-v0mg{border-color:#ffffff;text-align:center;vertical-align:middle}
-</style>
+
 <table class="tg">
   <tr>
     <th class="tg-v0mg"><a href="../assets/imgs/21262-Temperature_Sensor-STTS22H_PowerPins.jpg"><img src="../assets/imgs/21262-Temperature_Sensor-STTS22H_PowerPins.jpg" alt="3.3V & GND Pins"></a></th>
@@ -74,12 +59,7 @@ Ideally, power will be supplied via the Qwiic connector(s). Alternatively, power
 
 An interrupt pin is available to signal the application whenever the selectable high or low threshold has been exceeded.
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-v0mg{border-color:#ffffff;text-align:center;vertical-align:middle}
-</style>
+
 <table class="tg">
   <tr>
     <th class="tg-v0mg"><a href="../assets/imgs/21262-Temperature_Sensor-STTS22H_InterruptPin.jpg"><img src="../assets/imgs/21262-Temperature_Sensor-STTS22H_InterruptPin.jpg" alt="Interrupt Pin"></a></th>
@@ -97,12 +77,6 @@ An interrupt pin is available to signal the application whenever the selectable 
 
 Hopefully this is self-explanatory, but this LED lights up when power is supplied to the board. 
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-v0mg{border-color:#ffffff;text-align:center;vertical-align:middle}
-</style>
 <table class="tg">
   <tr>
     <th class="tg-v0mg"><a href="../assets/imgs/21262-Temperature_Sensor-STTS22H_PowerLED.jpg"><img src="../assets/imgs/21262-Temperature_Sensor-STTS22H_PowerLED.jpg" alt="Power LED"></a></th>
@@ -118,12 +92,7 @@ Hopefully this is self-explanatory, but this LED lights up when power is supplie
 
 There's an extra pad on the bottom side of each board that allows for the most accurate possible readings. 
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-v0mg{border-color:#ffffff;text-align:center;vertical-align:middle}
-</style>
+
 <table class="tg">
   <tr>
     <th class="tg-v0mg"><a href="../assets/imgs/21262-Temperature_Sensor-STTS22H_BareCopperSensorPad.jpg"><img src="../assets/imgs/21262-Temperature_Sensor-STTS22H_BareCopperSensorPad.jpg" alt="Exposed Pad"></a></th>
@@ -144,12 +113,7 @@ There's an extra pad on the bottom side of each board that allows for the most a
 
 If power consumption is an issue, cut this jumper to disable the LED on the front of the board. 
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-v0mg{border-color:#ffffff;text-align:center;vertical-align:middle}
-</style>
+
 <table class="tg">
   <tr>
     <th class="tg-v0mg"><a href="../assets/imgs/21262-Temperature_Sensor-STTS22H_LED-Jumper.jpg"><img src="../assets/imgs/21262-Temperature_Sensor-STTS22H_LED-Jumper.jpg" alt="Power LED Jumper"></a></th>
@@ -167,7 +131,7 @@ If power consumption is an issue, cut this jumper to disable the LED on the fron
 
 The 1x1 board has two address jumpers available. The default I<sup>2</sup>C address is <b>0x3C</b>. By cutting various trace combinations, there are three other I<sup>2</sup>C addresses available. 
 
-<table class="tg" align="center">
+<table class="tg margin-left:auto; margin-right:auto" align="center" >
   <tr>
     <th class="text-center"  colspan="2"><b>ADDR</b></th>
   </tr>
@@ -193,12 +157,7 @@ The 1x1 board has two address jumpers available. The default I<sup>2</sup>C addr
   </tr>
 </table>
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-v0mg{border-color:#ffffff;text-align:center;vertical-align:middle}
-</style>
+
 <table class="tg">
   <tr>
     <th class="tg-v0mg"><a href="../assets/imgs/21262-Temperature_Sensor-STTS22H_ADDR-Jumper.jpg"><img src="../assets/imgs/21262-Temperature_Sensor-STTS22H_ADDR-Jumper.jpg" alt="Address Jumper"></a></th>
